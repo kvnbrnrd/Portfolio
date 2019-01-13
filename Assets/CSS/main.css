@@ -131,6 +131,8 @@ h1
 /* ******************************* Début Media Queries ******************************************** */
 
 @media screen and (max-width: 576px) {
+
+/* ******************************* Début Home ******************************************** */
 	h1
 	{
 		font-size: 8rem;
@@ -141,6 +143,7 @@ h1
 	{
 		font-size: 2.5rem;
 		font-family: 'karla', 'Times New Roman', Times, serif;
+		padding-bottom: 5rem;
 	}
 
 	.TxtProjet
@@ -149,6 +152,22 @@ h1
 		font-weight: bolder;
 		font-family: 'karla-bold', 'Times New Roman', Times, serif;
 	}
+
+	.kev
+{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.ArrowDown
+{
+	width: 70px;
+	height: 70px;
+
+}
+
+/* ******************************* Fin Home ******************************************** */
+
 }
 
 
