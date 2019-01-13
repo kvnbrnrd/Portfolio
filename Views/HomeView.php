@@ -13,7 +13,7 @@
 
 <!-- ------------------------------- Début Page Home -------------------------------- -->
 
-    <div class="container-fluid text-center">
+    <div class="container-fluid text-center" id="home">
         <h1 class="kev">KEVARD BERNIN</h1>
         <p class="pres">Donec condimentum massa eget eros scelerisque,<br> non sollicitudin lectus malesuada.<br> Duis consequat tortor in luctus scelerisque.<br> Nam sit amet tincidunt mauris.<br> Maecenas vehicula volutpat turpis sed dapibus.</p>
 

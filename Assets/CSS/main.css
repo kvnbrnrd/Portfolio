@@ -54,6 +54,7 @@ table {
 html, body {
 	height: 100vh;
 	width: 100vw;
+	overflow: hidden;
 }
 
 html
@@ -129,6 +130,26 @@ h1
 
 /* ******************************* Début Media Queries ******************************************** */
 
+@media screen and (max-width: 576px) {
+	h1
+	{
+		font-size: 8rem;
+		font-family: 'orkney', 'Times New Roman', Times, serif;
+	}
+
+	.pres
+	{
+		font-size: 2.5rem;
+		font-family: 'karla', 'Times New Roman', Times, serif;
+	}
+
+	.TxtProjet
+	{
+		font-size: 2.5rem;
+		font-weight: bolder;
+		font-family: 'karla-bold', 'Times New Roman', Times, serif;
+	}
+}
 
 
 /* ******************************* Fin Media Queries ******************************************** */
