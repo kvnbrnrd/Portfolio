@@ -46,29 +46,37 @@
 <!-- ------------------------------- Début Projet 1 -------------------------------- -->
 
     <div id="projet1">
-        <nav class="navbar navbar-expand navbar-dark bg-dark">
-        <div class="collapse navbar-collapse" id="navbarsExample02">
-            <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#"><img src="Assets/Images/logoVk.png" alt="logo"></a>
-            </li>
-            </ul>
-            <ul class="navbar-nav my-2 my-md-0">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Projets</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">A Propos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">English</a>
-            </li>
-            </ul>
+        <header>
+            <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="collapse navbar-collapse" id="navbarsExample02">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="Assets/Images/logoVk.png" alt="logo"></a>
+                </li>
+                </ul>
+                <ul class="navbar-nav my-2 my-md-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">A Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">English</a>
+                </li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+
+        <div id="P1" class="container-fluid">
+            <h2 id="RM">R&M TRANSFER</h2>
+            <p id="D1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
+            <p id="V1">VOIR PLUS</p>
         </div>
-        </nav>
     </div>
 
     

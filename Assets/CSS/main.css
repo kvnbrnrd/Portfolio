@@ -133,13 +133,39 @@ table {
 #projet1
 {
 	z-index: 1;
-	background: black;
 }
  .my-2
  {
 	font-size: 2rem;
 	font-family: 'orkney', 'Times New Roman', Times, serif;
 	text-transform: uppercase;
+ }
+
+/* ******************************* Fin Header******************************************** */
+
+ #P1
+ {
+	 background-color: #B064D4;
+	 min-width: 100vw;
+	 min-height: 100vh;
+ }
+
+ #RM
+ {
+	font-size: 5rem;
+	font-family: 'orkney', 'Times New Roman', Times, serif; 
+ }
+
+ #D1
+ {
+	font-size: 2.5rem;
+	font-family: 'karla', 'Times New Roman', Times, serif;
+ }
+
+ #V1
+ {
+	font-size: 2rem;
+	font-family: 'karla', 'Times New Roman', Times, serif;
  }
 
 /* ******************************* Fin Style ******************************************** */
