@@ -45,6 +45,31 @@
 
 <!-- ------------------------------- Début Projet 1 -------------------------------- -->
 
+    <div id="projet1">
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="Assets/Images/logoVk.png" alt="logo"></a>
+            </li>
+            </ul>
+            <ul class="navbar-nav my-2 my-md-0">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Projets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">A Propos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">English</a>
+            </li>
+            </ul>
+        </div>
+        </nav>
+    </div>
 
     
 <!-- ------------------------------- Fin Projet 1 -------------------------------- -->

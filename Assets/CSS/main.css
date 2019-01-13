@@ -79,6 +79,10 @@ table {
 		}
 
 /* ******************************* Fin Général ******************************************** */
+	#home
+	{
+		display: none;
+	}
 
 	.container
 	{
@@ -126,8 +130,17 @@ table {
 
 /* ******************************* Fin Home ******************************************** */
 
-
-
+#projet1
+{
+	z-index: 1;
+	background: black;
+}
+ .my-2
+ {
+	font-size: 2rem;
+	font-family: 'orkney', 'Times New Roman', Times, serif;
+	text-transform: uppercase;
+ }
 
 /* ******************************* Fin Style ******************************************** */
 
@@ -174,6 +187,12 @@ table {
 	}
 
 /* ******************************* Fin Home ******************************************** */
+	.my-2
+	{
+		font-size: 1rem;
+		font-family: 'orkney', 'Times New Roman', Times, serif;
+		text-transform: uppercase;
+	}
 
 }
 
