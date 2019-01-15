@@ -83,8 +83,9 @@
                     </div>
                 </div>
                 <div id="rick" class="col-md-6">
-                    <img src="Assets/Images/rickmail.png" alt="">
+                    <img id="imgrick" src="Assets/Images/rickmail.png" alt="">
                 </div>
+                
             </div>
         </div>
     </div>

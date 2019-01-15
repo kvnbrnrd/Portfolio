@@ -297,6 +297,13 @@ table {
 		width: 11rem;
 		height: 4rem;
 	}
+
+	#imgrick
+	{
+		height: 100%;
+		width: 90%;
+	}
+   
    
 }
 
