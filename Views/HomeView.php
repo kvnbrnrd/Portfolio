@@ -77,7 +77,8 @@
                 <div class="col-md-6">
                     <h2 id="titre">R&M TRANSFER</h2>
                     <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
-                    <a href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a>
+                    <a href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a></p>
+                    <a href="#"><img id="gitP" src="Assets/Images/github.png" alt=""></a>
                 </div>
                 <div class="col-md-6">
                 
