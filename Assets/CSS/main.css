@@ -177,7 +177,14 @@ table {
  {
 	font-size: 2rem;
 	font-family: 'karla', 'Times New Roman', Times, serif;
+	color: #212529;
  }
+
+ #arrow-right
+ {
+	 padding-right: 1rem;
+ }
+
 
 /* ******************************* Fin Style ******************************************** */
 
