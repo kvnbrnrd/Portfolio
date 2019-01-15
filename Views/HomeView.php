@@ -82,8 +82,8 @@
                     <a href="#"><img id="gitP" src="Assets/Images/github.png" alt=""></a>
                     </div>
                 </div>
-                <div class="col-md-6">
-                
+                <div id="rick" class="col-md-6">
+                    <img src="Assets/Images/rickmail.png" alt="">
                 </div>
             </div>
         </div>
