@@ -48,27 +48,27 @@
     <div id="pageP">
         <header>
             <nav class="navbar navbar-expand navbar-dark bg-dark">
-            <div class="collapse navbar-collapse" id="navbarsExample02">
-                <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><img src="Assets/Images/logoVk.png" alt="logo"></a>
-                </li>
-                </ul>
-                <ul class="navbar-nav my-2 my-md-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Projets</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">A Propos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">English</a>
-                </li>
-                </ul>
-            </div>
+                <div class="collapse navbar-collapse" id="navbarsExample02">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="Assets/Images/logoVk.png" alt="logo"></a>
+                    </li>
+                    </ul>
+                    <ul class="navbar-nav my-2 my-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">A Propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">English</a>
+                    </li>
+                    </ul>
+                </div>
             </nav>
         </header>
 
@@ -82,10 +82,9 @@
                     <a href="#"><img id="gitP" src="Assets/Images/github.png" alt=""></a>
                     </div>
                 </div>
-                <div id="rick" class="col-md-6">
-                    <img id="imgrick" src="Assets/Images/rickmail.png" alt="">
-                </div>
-                
+                    <div id="divimage" class="col-md-6">
+                        <img id="imgprojet" src="Assets/Images/rickmail.png" alt="">
+                    </div>
             </div>
         </div>
     </div>
@@ -100,7 +99,49 @@
 
 <!-- ------------------------------- Début Projet 2 -------------------------------- -->
 
+        <!-- <div id="pageP">
+            <header>
+                <nav class="navbar navbar-expand navbar-dark bg-dark">
+                    <div class="collapse navbar-collapse" id="navbarsExample02">
+                        <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="Assets/Images/logoVk.png" alt="logo"></a>
+                        </li>
+                        </ul>
+                        <ul class="navbar-nav my-2 my-md-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">A Propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">English</a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
 
+            <div id="projet2" class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h2 id="titre">TITRE PROJET</h2>
+                        <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
+                        <div class="row justify-content-between">
+                        <a class="col align-self-end" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a>
+                        <a href="#"><img id="gitP" src="Assets/Images/github.png" alt=""></a>
+                        </div>
+                    </div>
+                        <div id="divimage" class="col-md-6">
+                            <img id="imgprojet" src="" alt="">
+                        </div>
+                </div>
+            </div>
+        </div> -->
     
 <!-- ------------------------------- Fin Projet 2 -------------------------------- -->
 
@@ -111,6 +152,49 @@
 
 <!-- ------------------------------- Début Projet 3 -------------------------------- -->
 
+        <!-- <div id="pageP">
+            <header>
+                <nav class="navbar navbar-expand navbar-dark bg-dark">
+                    <div class="collapse navbar-collapse" id="navbarsExample02">
+                        <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><img src="Assets/Images/logoVk.png" alt="logo"></a>
+                        </li>
+                        </ul>
+                        <ul class="navbar-nav my-2 my-md-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">A Propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">English</a>
+                        </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <div id="projet3" class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h2 id="titre">TITRE PROJET</h2>
+                        <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
+                        <div class="row justify-content-between">
+                        <a class="col align-self-end" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a>
+                        <a href="#"><img id="gitP" src="Assets/Images/github.png" alt=""></a>
+                        </div>
+                    </div>
+                        <div id="divimage" class="col-md-6">
+                            <img id="imgprojet" src="" alt="">
+                        </div>
+                </div>
+            </div>
+        </div> -->
 
     
 <!-- ------------------------------- Fin Projet 3 -------------------------------- -->
