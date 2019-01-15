@@ -81,11 +81,18 @@ table {
 /* ******************************* Fin Général ******************************************** */
 	#home
 	{
+		/* display: none; */
+	}
+
+	#pageP
+	{
 		display: none;
 	}
 
-	.container
+	.text-center
 	{
+		position: relative;
+		max-width: 100vw;
 		min-height: 100vh;
 	}
 
@@ -104,13 +111,17 @@ table {
 
 	.kev
 	{
-		padding-top: 10rem;
+		padding-top: 20rem;
 		padding-bottom: 10rem;
 	}
 
 	.call
 	{
-		min-height: 100vh;
+		position: absolute;
+		bottom: 50px;
+		left: 50%;
+		margin-left: -140px;
+		width: 280px;
 	}
 
 
@@ -236,11 +247,19 @@ table {
 		padding-bottom: 5rem;
 	}
 
+	.call
+	{
+		position: absolute;
+		bottom: 30px;
+		left: 50%;
+		margin-left: -140px;
+		width: 280px;
+	}
+
 	.ArrowDown
 	{
-		width: 70px;
-		height: 70px;
-
+		width: 50px;
+		height: 50px;
 	}
 
 /* ******************************* Fin Home ******************************************** */
