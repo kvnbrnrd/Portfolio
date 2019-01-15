@@ -170,7 +170,7 @@ table {
  {
 	font-size: 2.5rem;
 	font-family: 'karla', 'Times New Roman', Times, serif;
-	padding-bottom: 5rem;
+	padding-bottom: 3rem;
  }
 
  #voir
@@ -188,10 +188,9 @@ table {
 
  #gitP
  {
-	 padding-top: 2rem;
-	 margin-left: 1.7rem;
-	 width: 10rem;
-	 height: 9rem;
+	 width: 13rem;
+	 height: 5.5rem;
+	 padding-right: 5rem;
  }
 
 
