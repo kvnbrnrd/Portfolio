@@ -17,10 +17,10 @@
         <h1 class="kev">KEVARD BERNIN</h1>
         <p class="pres">Donec condimentum massa eget eros scelerisque,<br> non sollicitudin lectus malesuada.<br> Duis consequat tortor in luctus scelerisque.<br> Nam sit amet tincidunt mauris.<br> Maecenas vehicula volutpat turpis sed dapibus.</p>
 
-        <div class="projet">
+        <div class="call">
             <p class="TxtProjet">Voir mes projets</p>
             <img class="ArrowDown" src="Assets/Images/2ArrowDown.png" alt="two arrows down">
-        </div> <!-- Fin div PROJEEEEEEEEEEEEEEEEEEEEEEEEET -->
+        </div> <!-- Fin div call -->
     </div> <!-- Fin div container -->
 
 
@@ -45,7 +45,7 @@
 
 <!-- ------------------------------- Début Projet 1 -------------------------------- -->
 
-    <div id="projet1">
+    <div id="pageP">
         <header>
             <nav class="navbar navbar-expand navbar-dark bg-dark">
             <div class="collapse navbar-collapse" id="navbarsExample02">
@@ -72,10 +72,17 @@
             </nav>
         </header>
 
-        <div id="P1" class="container-fluid">
-            <h2 id="RM">R&M TRANSFER</h2>
-            <p id="D1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
-            <p id="V1">VOIR PLUS</p>
+        <div id="projet" class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 id="titre">R&M TRANSFER</h2>
+                    <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
+                    <p id="voir">VOIR PLUS</p>
+                </div>
+                <div class="col-md-6">
+                
+                </div>
+            </div>
         </div>
     </div>
 
