@@ -152,6 +152,7 @@ table {
 	text-transform: uppercase;
  }
 
+
 /* ******************************* Fin Header******************************************** */
 
  #projet
@@ -264,11 +265,24 @@ table {
 	}
 
 /* ******************************* Fin Home ******************************************** */
+
 	.my-2
 	{
 		font-size: 1rem;
 		font-family: 'orkney', 'Times New Roman', Times, serif;
 		text-transform: uppercase;
+	}
+
+	#KB
+	{
+		width: 85px;
+		height: 52px;
+	}
+
+	#flag
+	{
+		width: 50px;
+		height: 34px;
 	}
 
 
