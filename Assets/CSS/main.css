@@ -86,7 +86,7 @@ table {
 
 	#pageP
 	{
-		/* display: none; */
+		display: none;
 	}
 
 	.text-center
@@ -210,6 +210,8 @@ table {
  {
 	 margin-top: -20rem;
  }
+
+ 
 
 
 /* ******************************* Fin Style ******************************************** */

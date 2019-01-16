@@ -76,9 +76,11 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <h2 id="titre">R&M TRANSFER</h2>
-                    <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
+                    <p class="fr" id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
+                    <!-- <p class="en" id="desc">ENGLISH TEXT </p> -->
                     <div class="row justify-content-between">
-                    <a class="col align-self-end" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a>
+                    <a class="col align-self-end fr" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a>
+                    <!-- <a class="col align-self-end en" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">SEE MORE</a> -->
                     <a href="#"><img id="gitP" src="Assets/Images/github.png" alt=""></a>
                     </div>
                 </div>
@@ -216,7 +218,43 @@
 
 
 <!-- ------------------------------- Début Contact -------------------------------- -->
+    <div id="PageContact">
+        <section id="contact">
+            <div class="section-content">
+                <h2 class="section-header">CONTACT</h2>
+                <h3>Lorem Ipsum dolor sit amet</h3>
+            </div>
 
+            <form>
+                <div class="container-fluid">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="NomExpediteur">Votre nom</label>
+                            <input type="text" class="form-control" id="InputNom" placeholder="Entrez votre nom complet">
+                        </div>
+                        <div class="form-group">
+                            <label for="EmailExpediteur">Votre email</label>
+                            <input type="email" class="form-control" id="InputEmail" placeholder=" Entrez votre adresse email">
+                        </div>	
+                        <div class="form-group">
+                            <label for="SujetMessage">Sujet</label>
+                            <input type="tel" class="form-control" id="InputSujet" placeholder="Entrez le sujet de votre message">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for ="Message">Message</label>
+                            <textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-default submit">Envoyer le message</button>
+                        </div>	
+                    </div>
+                </div>
+            </form>
+
+        </section>
+    </div>
 
     
 <!-- ------------------------------- Fin Contact -------------------------------- -->
