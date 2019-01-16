@@ -81,12 +81,12 @@ table {
 /* ******************************* Fin Général ******************************************** */
 	#home
 	{
-		/* display: none; */
+		display: none;
 	}
 
 	#pageP
 	{
-		display: none;
+		/* display: none; */
 	}
 
 	.text-center
@@ -182,6 +182,7 @@ table {
 	font-size: 2.5rem;
 	font-family: 'karla', 'Times New Roman', Times, serif;
 	padding-bottom: 3rem;
+	padding-right: 2rem;
  }
 
  #voir
@@ -285,7 +286,7 @@ table {
 	{
 	font-size: 3.5rem;
 	font-family: 'orkney', 'Times New Roman', Times, serif; 
-	margin-top: -10rem;
+	margin-top: -9rem;
 	padding-bottom: 2rem;
 	
 	}
