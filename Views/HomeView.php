@@ -13,15 +13,15 @@
 
 <!-- ------------------------------- Début Page Home -------------------------------- -->
 
-    <div class="container-fluid text-center" id="home">
+    <div class="container-fluid text-center home " id="home">
         <h1 class="kev">KEVARD BERNIN</h1>
         <p class="pres">Donec condimentum massa eget eros scelerisque,<br> non sollicitudin lectus malesuada.<br> Duis consequat tortor in luctus scelerisque.<br> Nam sit amet tincidunt mauris.<br> Maecenas vehicula volutpat turpis sed dapibus.</p>
 
         <div class="call">
             <p class="TxtProjet">Voir mes projets</p>
             <img class="ArrowDown" src="Assets/Images/2ArrowDown.png" alt="two arrows down">
-        </div> <!-- Fin div call -->
-    </div> <!-- Fin div container -->
+        </div> 
+    </div> 
 
 
 <!-- ------------------------------- Fin Page Home -------------------------------- -->
@@ -88,8 +88,8 @@
                         <img id="imgprojet" src="Assets/Images/rickmail.png" alt="">
                     </div>
             </div>
-        </div>
-    </div>
+        </div> <!-- Fin div projet -->
+    </div> <!-- Fin div PageP -->
 
     
 <!-- ------------------------------- Fin Projet 1 -------------------------------- -->
@@ -101,49 +101,49 @@
 
 <!-- ------------------------------- Début Projet 2 -------------------------------- -->
 
-        <!-- <div id="pageP">
-            <header>
-                <nav class="navbar navbar-expand navbar-dark bg-dark">
-                    <div class="collapse navbar-collapse" id="navbarsExample02">
-                        <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="Assets/Images/logoVk.png" alt="logo"></a>
-                        </li>
-                        </ul>
-                        <ul class="navbar-nav my-2 my-md-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Projets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">A Propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">English</a>
-                        </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-
-            <div id="projet2" class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <h2 id="titre">TITRE PROJET</h2>
-                        <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
-                        <div class="row justify-content-between">
-                        <a class="col align-self-end" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a>
-                        <a href="#"><img id="gitP" src="Assets/Images/github.png" alt=""></a>
-                        </div>
-                    </div>
-                        <div id="divimage" class="col-md-6">
-                            <img id="imgprojet" src="" alt="">
-                        </div>
+    <!-- <div id="pageP">
+        <header>
+            <nav class="navbar navbar-expand navbar-dark bg-dark">
+                <div class="collapse navbar-collapse" id="navbarsExample02">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="Assets/Images/logoVk.png" alt="logo"></a>
+                    </li>
+                    </ul>
+                    <ul class="navbar-nav my-2 my-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">A Propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">English</a>
+                    </li>
+                    </ul>
                 </div>
+            </nav>
+        </header>
+
+        <div id="projet2" class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 id="titre">TITRE PROJET</h2>
+                    <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
+                    <div class="row justify-content-between">
+                    <a class="col align-self-end" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a>
+                    <a href="#"><img id="gitP" src="Assets/Images/github.png" alt=""></a>
+                    </div>
+                </div>
+                    <div id="divimage" class="col-md-6">
+                        <img id="imgprojet" src="" alt="">
+                    </div>
             </div>
-        </div> -->
+        </div> Fin div projet2 
+    </div> Fin div PageP -->
     
 <!-- ------------------------------- Fin Projet 2 -------------------------------- -->
 
@@ -154,49 +154,49 @@
 
 <!-- ------------------------------- Début Projet 3 -------------------------------- -->
 
-        <!-- <div id="pageP">
-            <header>
-                <nav class="navbar navbar-expand navbar-dark bg-dark">
-                    <div class="collapse navbar-collapse" id="navbarsExample02">
-                        <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><img src="Assets/Images/logoVk.png" alt="logo"></a>
-                        </li>
-                        </ul>
-                        <ul class="navbar-nav my-2 my-md-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Projets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">A Propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">English</a>
-                        </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-
-            <div id="projet3" class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <h2 id="titre">TITRE PROJET</h2>
-                        <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
-                        <div class="row justify-content-between">
-                        <a class="col align-self-end" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a>
-                        <a href="#"><img id="gitP" src="Assets/Images/github.png" alt=""></a>
-                        </div>
-                    </div>
-                        <div id="divimage" class="col-md-6">
-                            <img id="imgprojet" src="" alt="">
-                        </div>
+    <!-- <div id="pageP">
+        <header>
+            <nav class="navbar navbar-expand navbar-dark bg-dark">
+                <div class="collapse navbar-collapse" id="navbarsExample02">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img src="Assets/Images/logoVk.png" alt="logo"></a>
+                    </li>
+                    </ul>
+                    <ul class="navbar-nav my-2 my-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">A Propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">English</a>
+                    </li>
+                    </ul>
                 </div>
+            </nav>
+        </header>
+
+        <div id="projet3" class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 id="titre">TITRE PROJET</h2>
+                    <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
+                    <div class="row justify-content-between">
+                    <a class="col align-self-end" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a>
+                    <a href="#"><img id="gitP" src="Assets/Images/github.png" alt=""></a>
+                    </div>
+                </div>
+                    <div id="divimage" class="col-md-6">
+                        <img id="imgprojet" src="" alt="">
+                    </div>
             </div>
-        </div> -->
+        </div> Fin div projet3
+    </div> Fin div PageP -->
 
     
 <!-- ------------------------------- Fin Projet 3 -------------------------------- -->
@@ -218,51 +218,38 @@
 
 
 <!-- ------------------------------- Début Contact -------------------------------- -->
-<div class="container">
-
-<div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        
-      <h2 class="form-title">Get in Touch</h2>
-    </div>
-</div>
-
-<div class="row">
-
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
-        <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST" role="form">
-
-            <div class="form-group">
-                <label class="form-label" id="nameLabel" for="name"></label>
-                <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        
+            <h2 class="form-title">Contactez-moi</h2>
             </div>
-
-            <div class="form-group">
-                <label class="form-label" id="emailLabel" for="email"></label>
-                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2">
-            </div>
-
-            <div class="form-group">
-                <label class="form-label" id="subjectLabel" for="sublect"></label>
-                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
-            </div>
-
-            <div class="form-group">
-                <label class="form-label" id="messageLabel" for="message"></label>
-                <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4"></textarea>                                 
-            </div>
-
-            <div class="text-center margin-top-25">
-                <button type="submit" class="btn btn-mod btn-border btn-large">Send Message</button>
-            </div>
-
-        </form><!-- End form -->
-      
-    </div><!-- End col -->
-
-</div><!-- End row -->
-
-</div><!-- End container -->
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST" role="form">
+                    <div class="form-group">
+                        <label class="form-label" id="nameLabel" for="name"></label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Votre nom" tabindex="1">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" id="emailLabel" for="email"></label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Votre adresse email" tabindex="2">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" id="subjectLabel" for="sublect"></label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet" tabindex="3">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" id="messageLabel" for="message"></label>
+                        <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Votre message" tabindex="4"></textarea>                                 
+                    </div>
+                    <div class="text-center margin-top-25">
+                        <button type="submit" class="btn btn-mod btn-border btn-large">Envoyer le message</button>
+                    </div>
+                </form> 
+            </div> <!-- Fin div col-xs-12 col-sm-12 col-md-12 col-lg-12 -->
+        </div> <!-- Fin div row -->
+    </div> <!-- Fin div container -->
 
 
     
