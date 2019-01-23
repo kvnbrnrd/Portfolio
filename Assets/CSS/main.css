@@ -449,6 +449,23 @@ table {
 		height: 100%;
 		width: 90%;
 	}
+
+/* ******************************* Fin PROJEEEEEEEEEEEEEEEEEEEEEEET ******************************************** */
+
+	.col-xs-12.col-sm-12.col-md-12.col-lg-12 
+	{
+		padding: 0% 0% 0% 0%;
+	}
+
+	form 
+	{
+		height: 100vh;
+	}
+
+	.form-group .form-control {
+		padding: 2.5rem;
+		font-size: 1.6rem;
+	  }
    
    
 }
