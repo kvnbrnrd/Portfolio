@@ -218,43 +218,52 @@
 
 
 <!-- ------------------------------- Début Contact -------------------------------- -->
-    <div id="PageContact">
-        <section id="contact">
-            <div class="section-content">
-                <h2 class="section-header">CONTACT</h2>
-                <h3>Lorem Ipsum dolor sit amet</h3>
+<div class="container">
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">                        
+      <h2 class="form-title">Get in Touch</h2>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+        <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST" role="form">
+
+            <div class="form-group">
+                <label class="form-label" id="nameLabel" for="name"></label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your name" tabindex="1">
             </div>
 
-            <form>
-                <div class="container-fluid">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="NomExpediteur">Votre nom</label>
-                            <input type="text" class="form-control" id="InputNom" placeholder="Entrez votre nom complet">
-                        </div>
-                        <div class="form-group">
-                            <label for="EmailExpediteur">Votre email</label>
-                            <input type="email" class="form-control" id="InputEmail" placeholder=" Entrez votre adresse email">
-                        </div>	
-                        <div class="form-group">
-                            <label for="SujetMessage">Sujet</label>
-                            <input type="tel" class="form-control" id="InputSujet" placeholder="Entrez le sujet de votre message">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for ="Message">Message</label>
-                            <textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
-                        </div>
-                        <div>
-                            <button type="button" class="btn btn-default submit">Envoyer le message</button>
-                        </div>	
-                    </div>
-                </div>
-            </form>
+            <div class="form-group">
+                <label class="form-label" id="emailLabel" for="email"></label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" tabindex="2">
+            </div>
 
-        </section>
-    </div>
+            <div class="form-group">
+                <label class="form-label" id="subjectLabel" for="sublect"></label>
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3">
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" id="messageLabel" for="message"></label>
+                <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Your message" tabindex="4"></textarea>                                 
+            </div>
+
+            <div class="text-center margin-top-25">
+                <button type="submit" class="btn btn-mod btn-border btn-large">Send Message</button>
+            </div>
+
+        </form><!-- End form -->
+      
+    </div><!-- End col -->
+
+</div><!-- End row -->
+
+</div><!-- End container -->
+
 
     
 <!-- ------------------------------- Fin Contact -------------------------------- -->
