@@ -228,19 +228,19 @@
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST" role="form">
                     <div class="form-group">
-                        <label class="form-label" id="nameLabel" for="name"></label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Votre nom" tabindex="1">
+                        <label class="form-label" id="LabelNom" for="name"></label>
+                        <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom" tabindex="1">
                     </div>
                     <div class="form-group">
-                        <label class="form-label" id="emailLabel" for="email"></label>
+                        <label class="form-label" id="LabelEmail" for="email"></label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Votre adresse email" tabindex="2">
                     </div>
                     <div class="form-group">
-                        <label class="form-label" id="subjectLabel" for="sublect"></label>
-                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet" tabindex="3">
+                        <label class="form-label" id="LabelSujet" for="sublect"></label>
+                        <input type="text" class="form-control" id="sujet" name="sujet" placeholder="Sujet" tabindex="3">
                     </div>
                     <div class="form-group">
-                        <label class="form-label" id="messageLabel" for="message"></label>
+                        <label class="form-label" id="LabelMessage" for="message"></label>
                         <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Votre message" tabindex="4"></textarea>                                 
                     </div>
                     <div class="text-center margin-top-25">
