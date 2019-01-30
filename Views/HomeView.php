@@ -232,7 +232,7 @@
                     </li>
                 </div>
             </nav>
-        </header>
+    </header>
         <div class="container box">
             <div class="row justify-content-center">
                 <h2 class="about txt">A PROPOS DE MOI</h2>
@@ -265,6 +265,31 @@
 
 <!-- ------------------------------- Début Contact -------------------------------- -->
     <div class="fond">
+    <header>
+            <nav class="navbar navbar-expand navbar-dark bg-dark">
+                <div class="collapse navbar-collapse" id="navbarsExample02">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img id="KB" src="Assets/Images/logoVk.png" alt="logo"></a>
+                    </li>
+                    </ul>
+                    <ul class="navbar-nav my-2 my-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">A Propos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img id="flag" src="Assets/Images/usflag.png" alt=""></a>
+                    </li>
+                </div>
+            </nav>
+    </header>
         <div class="container" id="contact">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
