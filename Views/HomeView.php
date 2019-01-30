@@ -208,6 +208,31 @@
 
 <!-- ------------------------------- Début A Propos -------------------------------- -->
     <div id="aboutme">
+    <header>
+            <nav class="navbar navbar-expand navbar-dark bg-dark">
+                <div class="collapse navbar-collapse" id="navbarsExample02">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img id="KB" src="Assets/Images/logoVk.png" alt="logo"></a>
+                    </li>
+                    </ul>
+                    <ul class="navbar-nav my-2 my-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projets</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">A Propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img id="flag" src="Assets/Images/usflag.png" alt=""></a>
+                    </li>
+                </div>
+            </nav>
+        </header>
         <div class="container box">
             <div class="row justify-content-center">
                 <h2 class="about txt">A PROPOS DE MOI</h2>
@@ -219,7 +244,7 @@
                     Morbi elit diam, tristique pharetra rutrum eu, bibendum a leo. Cras ultrices nec augue in suscipit. Praesent sed nunc et quam sollicitudin tempus at vitae lorem. Nulla fermentum molestie dui nec placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
                     </p>
             </div>
-            <div class="text-center margin-top-25 txt">
+            <div class="text-center margin-top-25 CV">
                 <button type="submit" class="btn btn-mod btn-border btn-large">Voir mon CV</button>
             </div>
             <div class="row justify-content-around">
