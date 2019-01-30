@@ -13,7 +13,7 @@
 
 <!-- ------------------------------- Début Page Home -------------------------------- -->
 
-    <div class="container-fluid text-center home " id="home">
+    <div class="container-fluid text-center home" id="home">
         <h1 class="kev">KEVARD BERNIN</h1>
         <p class="pres">Donec condimentum massa eget eros scelerisque,<br> non sollicitudin lectus malesuada.<br> Duis consequat tortor in luctus scelerisque.<br> Nam sit amet tincidunt mauris.<br> Maecenas vehicula volutpat turpis sed dapibus.</p>
 
@@ -101,7 +101,7 @@
 
 <!-- ------------------------------- Début Projet 2 -------------------------------- -->
 
-    <!-- <div id="pageP">
+    <!-- <div id="pageP2">
         <header>
             <nav class="navbar navbar-expand navbar-dark bg-dark">
                 <div class="collapse navbar-collapse" id="navbarsExample02">
@@ -154,7 +154,7 @@
 
 <!-- ------------------------------- Début Projet 3 -------------------------------- -->
 
-    <!-- <div id="pageP">
+    <!-- <div id="pageP3">
         <header>
             <nav class="navbar navbar-expand navbar-dark bg-dark">
                 <div class="collapse navbar-collapse" id="navbarsExample02">
@@ -207,22 +207,25 @@
 
 
 <!-- ------------------------------- Début A Propos -------------------------------- -->
-    <div class="about">
-        <div class="container">
+    <div id="aboutme">
+        <div class="container box">
+            <div class="row justify-content-center">
+                <h2 class="about txt">A PROPOS DE MOI</h2>
+            </div>
             <div class="row">
-                    <p class="apropos">
-                    Integer ac sem condimentum, dapibus urna quis, sagittis sapien. Nam blandit quam a massa pharetra molestie. Sed dui augue, mollis feugiat maximus quis, semper quis arcu. Pellentesque in tortor nec diam laoreet mollis a nec quam. In hac habitasse platea dictumst. Morbi sollicitudin suscipit lacinia. Nullam nunc metus, tempor ut velit eu, ultrices blandit mi.<br>
+                    <p class="apropos txt">
+                    Integer ac sem condimentum, dapibus urna quis, sagittis sapien. Nam blandit quam a massa pharetra molestie. Sed dui augue, mollis feugiat maximus quis, semper quis arcu. Pellentesque in tortor nec diam laoreet mollis a nec quam. In hac habitasse platea dictumst. Morbi sollicitudin suscipit lacinia. Nullam nunc metus, tempor ut velit eu, ultrices blandit mi.<br><br>
 
                     Morbi elit diam, tristique pharetra rutrum eu, bibendum a leo. Cras ultrices nec augue in suscipit. Praesent sed nunc et quam sollicitudin tempus at vitae lorem. Nulla fermentum molestie dui nec placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
                     </p>
             </div>
-            <div class="row text-center">
-                <button type="button" class="btn btn-mod btn-border btn-large">VOIR MON CV</button>
+            <div class="text-center margin-top-25 txt">
+                <button type="submit" class="btn btn-mod btn-border btn-large">Voir mon CV</button>
             </div>
-            <div class="row">
-                <a href="#"><img src="Assets/Images/rdflickr.png" alt="" class="rdflickr"></a>
-                <a href="#"><img src="Assets/Images/rdgithub.png" alt="" class="rdgithub"></a>
-                <a href="#"><img src="Assets/Images/rdlinkedin.png" alt="" class="rdlinkedin"></a>
+            <div class="row justify-content-around">
+                <a href="#"><img src="Assets/Images/rdflickr.png" alt="" class="col-4rd"></a>
+                <a href="#"><img src="Assets/Images/rdgithub.png" alt="" class="col-4rd"></a>
+                <a href="#"><img src="Assets/Images/rdlinkedin.png" alt="" class="col-4rd"></a>
             </div>
         </div>
     </div>
