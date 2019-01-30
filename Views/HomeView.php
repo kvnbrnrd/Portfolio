@@ -101,7 +101,7 @@
 
 <!-- ------------------------------- Début Projet 2 -------------------------------- -->
 
-    <!-- <div id="pageP2">
+    <div id="pageP2">
         <header>
             <nav class="navbar navbar-expand navbar-dark bg-dark">
                 <div class="collapse navbar-collapse" id="navbarsExample02">
@@ -120,10 +120,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">English</a>
-                    </li>
                     </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img id="flag" src="Assets/Images/usflag.png" alt=""></a>
+                    </li>
                 </div>
             </nav>
         </header>
@@ -131,7 +131,7 @@
         <div id="projet2" class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <h2 id="titre">TITRE PROJET</h2>
+                    <h2 id="titre">CANCOILLOTTE GAUMONT</h2>
                     <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
                     <div class="row justify-content-between">
                     <a class="col align-self-end" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a>
@@ -139,11 +139,11 @@
                     </div>
                 </div>
                     <div id="divimage" class="col-md-6">
-                        <img id="imgprojet" src="" alt="">
+                        <img id="imgprojet" src="Assets/Images/gaumont.png" alt="">
                     </div>
             </div>
-        </div> Fin div projet2 
-    </div> Fin div PageP -->
+        </div> 
+    </div> 
     
 <!-- ------------------------------- Fin Projet 2 -------------------------------- -->
 
@@ -173,10 +173,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">English</a>
-                    </li>
                     </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><img id="flag" src="Assets/Images/usflag.png" alt=""></a>
+                    </li>
                 </div>
             </nav>
         </header>
