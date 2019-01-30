@@ -79,27 +79,36 @@ table {
 		}
 
 /* ******************************* Fin Général ******************************************** */
-	#home
+	/* #home
 	{
 		display: none;
-	}
+	} */
 
 	#pageP
 	{
 		display: none;
 	}
 
+	#contact, .fond
+	{
+		display: none;
+	} 
+
 	.home
 	{
 		position: relative;
 		max-width: 100vw;
 		min-height: 100vh;
+		background-color: #212529;
 	}
 
 	h1
 	{
 		font-size: 15rem;
 		font-family: 'orkney', 'Times New Roman', Times, serif;
+		color: #ececec;
+		padding-top: 20rem;
+		padding-bottom: 10rem;
 	}
 
 	.pres
@@ -107,13 +116,9 @@ table {
 		font-size: 3rem;
 		font-family: 'karla', 'Times New Roman', Times, serif;
 		padding-bottom: 10rem;
+		color: #ececec;
 	}
 
-	.kev
-	{
-		padding-top: 20rem;
-		padding-bottom: 10rem;
-	}
 
 	.call
 	{
@@ -130,6 +135,7 @@ table {
 		font-size: 3rem;
 		font-weight: bolder;
 		font-family: 'karla-bold', 'Times New Roman', Times, serif;
+		color: #ececec;
 	}
 
 	.ArrowDown
@@ -466,6 +472,8 @@ table {
 		padding: 2.5rem;
 		font-size: 1.6rem;
 	  }
+
+/* ******************************* Fin Contact ******************************************** */
    
    
 }
