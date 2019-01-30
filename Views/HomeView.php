@@ -207,7 +207,25 @@
 
 
 <!-- ------------------------------- Début A Propos -------------------------------- -->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                    <p class="apropos">
+                    Integer ac sem condimentum, dapibus urna quis, sagittis sapien. Nam blandit quam a massa pharetra molestie. Sed dui augue, mollis feugiat maximus quis, semper quis arcu. Pellentesque in tortor nec diam laoreet mollis a nec quam. In hac habitasse platea dictumst. Morbi sollicitudin suscipit lacinia. Nullam nunc metus, tempor ut velit eu, ultrices blandit mi.<br>
 
+                    Morbi elit diam, tristique pharetra rutrum eu, bibendum a leo. Cras ultrices nec augue in suscipit. Praesent sed nunc et quam sollicitudin tempus at vitae lorem. Nulla fermentum molestie dui nec placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+                    </p>
+            </div>
+            <div class="row text-center">
+                <button type="button" class="btn btn-mod btn-border btn-large">VOIR MON CV</button>
+            </div>
+            <div class="row">
+                <a href="#"><img src="Assets/Images/rdflickr.png" alt="" class="rdflickr"></a>
+                <a href="#"><img src="Assets/Images/rdgithub.png" alt="" class="rdgithub"></a>
+                <a href="#"><img src="Assets/Images/rdlinkedin.png" alt="" class="rdlinkedin"></a>
+            </div>
+        </div>
+    </div>
 
     
 <!-- ------------------------------- Fin A Propos -------------------------------- -->
