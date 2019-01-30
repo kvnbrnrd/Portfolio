@@ -503,6 +503,43 @@ table {
 
 /* ******************************* Fin PROJEEEEEEEEEEEEEEEEEEEEEEET ******************************************** */
 
+#aboutme
+{
+   background-color: grey;
+   background-image: none;
+}
+.about
+{
+   font-size: 3.3rem;
+   font-family: 'orkney', 'Times New Roman', Times, serif; 
+   margin-top: 4rem;
+}
+
+.apropos
+{
+   font-size: 1.6rem;
+   font-family: 'karla', 'Times New Roman', Times, serif;
+   margin-top: 6rem;
+   padding-bottom: 4rem;
+   margin-left: 2rem;
+   margin-right: 2rem;
+}
+
+.justify-content-around
+{
+	height: 100vh;
+	padding-top: 4rem;
+}
+
+.col-4rd
+{
+	height: 6.4rem;
+	width: 6.4rem;
+}
+
+
+/* ******************************* Fin A Propos ******************************************** */
+
 	.col-xs-12.col-sm-12.col-md-12.col-lg-12 
 	{
 		padding: 0% 0% 0% 0%;
