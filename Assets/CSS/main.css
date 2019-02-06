@@ -67,6 +67,14 @@ table {
 		position: relative;
 	}
 
+	hr
+	{
+  
+			border:         none;
+			border-left:    1px solid hsla(200, 10%, 50%,100);
+			height:         10vh;
+	}
+
 	@font-face {
 		font-family: 'orkney';
 		src: url('../../Assets/Polices/Orkney/orkney-bold.otf') format('opentype'); 
@@ -84,9 +92,93 @@ table {
 
 /* ******************************* Fin Général ******************************************** */
 
-.pulse {
+@-webkit-keyframes pulse {
+	from {
+	  -webkit-transform: scale3d(1, 1, 1);
+	  transform: scale3d(1, 1, 1);
+	}
+  
+	50% {
+	  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+	  transform: scale3d(1.05, 1.05, 1.05);
+	}
+  
+	to {
+	  -webkit-transform: scale3d(1, 1, 1);
+	  transform: scale3d(1, 1, 1);
+	}
+  }
+  
+  @keyframes pulse {
+	from {
+	  -webkit-transform: scale3d(1, 1, 1);
+	  transform: scale3d(1, 1, 1);
+	}
+  
+	50% {
+	  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+	  transform: scale3d(1.05, 1.05, 1.05);
+	}
+  
+	to {
+	  -webkit-transform: scale3d(1, 1, 1);
+	  transform: scale3d(1, 1, 1);
+	}
+  }
+  
+  .pulse-slow {
+	-webkit-animation-name: pulse;
+	animation-name: pulse;
+  }
+
+  .pulse {
 	animation-duration: 2s;
 	animation-delay: 3s;
+	animation-iteration-count: infinite;
+  }
+
+  @-webkit-keyframes pulse-slow {
+	from {
+	  -webkit-transform: scale3d(1, 1, 1);
+	  transform: scale3d(1, 1, 1);
+	}
+  
+	50% {
+	  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+	  transform: scale3d(1.05, 1.05, 1.05);
+	}
+  
+	to {
+	  -webkit-transform: scale3d(1, 1, 1);
+	  transform: scale3d(1, 1, 1);
+	}
+  }
+  
+  @keyframes pulse-slow {
+	from {
+	  -webkit-transform: scale3d(1, 1, 1);
+	  transform: scale3d(1, 1, 1);
+	}
+  
+	50% {
+	  -webkit-transform: scale3d(1.05, 1.05, 1.05);
+	  transform: scale3d(1.05, 1.05, 1.05);
+	}
+  
+	to {
+	  -webkit-transform: scale3d(1, 1, 1);
+	  transform: scale3d(1, 1, 1);
+	}
+  }
+  
+  .pulse-slow {
+	-webkit-animation-name: pulse-slow;
+	animation-name: pulse-slow;
+  }
+
+  .pulse-slow {
+	animation-duration: 5s;
+	animation-delay: 5s;
 	animation-iteration-count: infinite;
   }
 
@@ -151,7 +243,7 @@ table {
 	.call
 	{
 		position: absolute;
-		bottom: 50px;
+		bottom: 8rem;
 		left: 50%;
 		margin-left: -140px;
 		width: 280px;
@@ -167,12 +259,42 @@ table {
 		color: #ececec;
 	}
 
-	.ArrowDown
-	{
-		width: 100px;
-		height: 100px;
-
-	}
+	.scroll-downs {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin : auto;
+		
+		width: 34px;
+		height: 55px;
+	  }
+	  .mousey {
+		width: 3px;
+		padding: 10px 15px;
+		height: 35px;
+		border: 2px solid #fff;
+		border-radius: 25px;
+		opacity: 0.75;
+		box-sizing: content-box;
+	  }
+	  .scroller {
+		width: 3px;
+		height: 10px;
+		border-radius: 25%;
+		background-color: #fff;
+		animation-name: scroll;
+		animation-delay: 3s;
+		animation-duration: 2.2s;
+		animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+		animation-iteration-count: infinite;
+	  }
+	  @keyframes scroll {
+		0% { opacity: 0; }
+		10% { transform: translateY(0); opacity: 1; }
+		100% { transform: translateY(15px); opacity: 0;}
+	  }
 
 /* ******************************* Fin Home ******************************************** */
 
@@ -434,7 +556,7 @@ table {
 	.call
 	{
 		position: absolute;
-		bottom: 30px;
+		bottom: 50px;
 		left: 50%;
 		margin-left: -140px;
 		width: 280px;

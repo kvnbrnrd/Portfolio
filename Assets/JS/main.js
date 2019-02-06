@@ -52,9 +52,7 @@ window.addEventListener('wheel', function(e) {
 
   }
 
-
-
-  let home = document.getElementById('arrows');
+  let home = document.getElementById('mouse');
   home.addEventListener("click", animationHome, false);
 
 function validateForm() {

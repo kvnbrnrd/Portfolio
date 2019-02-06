@@ -6,7 +6,7 @@
         <title>Page Title</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        <link rel="stylesheet" href="Assets/CSS/animate.css">
+
         <link rel="stylesheet" type="text/css" media="screen" href="Assets/CSS/main.css" />
     </head>
 <body>
@@ -17,9 +17,12 @@
         <h1 class="kev">KEVARD BERNIN</h1>
         <p class="pres">Donec condimentum massa eget eros scelerisque,<br> non sollicitudin lectus malesuada.<br> Duis consequat tortor in luctus scelerisque.<br> Nam sit amet tincidunt mauris.<br> Maecenas vehicula volutpat turpis sed dapibus.</p>
 
-        <div id="arrows" class="call animated pulse">
-            <p class="TxtProjet">Voir mes projets</p>
-            <img class="ArrowDown" src="Assets/Images/2ArrowDown.png" alt="two arrows down">
+        <div id="mouse" class="call animated pulse">
+            <div class="scroll-downs">
+                <div class="mousey">
+                    <div class="scroller"></div>
+                </div>
+            </div>
         </div> 
     </div> 
 
@@ -49,10 +52,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
-                    </ul>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img id="flag" src="Assets/Images/usflag.png" alt="drapeau USA"></a>
+                            <a class="nav-link" href="#">English</a>
                         </li>
+                    </ul>
                 </div> <!-- Fin div collapse -->
             </nav>
         </header>
@@ -61,10 +64,10 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                         <h2 id="titre">R&M TRANSFER</h2>
-                        <p class="fr" id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
+                        <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
                         <!-- <p class="en" id="desc">ENGLISH TEXT </p> -->
                     <div class="row justify-content-between">
-                        <a class="col align-self-end fr" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a>
+                        <a class="col align-self-end animated pulse-slow" href ="#" id="voir">VOIR PLUS</a>
                         <!-- <a class="col align-self-end en" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">SEE MORE</a> -->
                         <a href="#"><img id="gitP" src="Assets/Images/github.png" alt="GitHub"></a>
                     </div>
