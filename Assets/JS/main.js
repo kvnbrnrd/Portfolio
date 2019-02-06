@@ -1,15 +1,61 @@
-TweenMax.to(".wrapper", 2, {
-    delay: 1,
-    top: "-100%",
-    ease: Expo.easeInOut
-})
+window.addEventListener('wheel', function(e) {
+    if (e.deltaY < 0) {
+      console.log('scrolling up');
+    }
+    if (e.deltaY > 0) {
+      console.log('scrolling down');
+    }
+  });
 
-TweenMax.from("#pageP", 1, {
-    delay: 2.4,
-    opacity: 0,
-    y: 20,
-    ease: Expo.easeInOut
-})
+  function animationHome() {
+
+    TweenMax.to(".wrapper", 2, {
+        delay: 0.3,
+        top: "-100%",
+        ease: Expo.easeInOut
+    })
+    
+    TweenMax.from("header", 1, {
+        delay: 1.3,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+    })
+
+    TweenMax.from("#projet", 1, {
+        delay: 1.6,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+    })
+
+    TweenMax.from("h2", 1, {
+        delay: 1.8,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+    })
+
+    TweenMax.from("#desc", 1, {
+        delay: 2.1,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+    })
+
+    TweenMax.from(".justify-content-between", 1, {
+        delay: 2.3,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+    })
+
+  }
+
+
+
+  let home = document.getElementById('arrows');
+  home.addEventListener("click", animationHome, false);
 
 function validateForm() {
     var nom = document.getElementById('nom').value;

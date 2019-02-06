@@ -17,7 +17,7 @@
         <h1 class="kev">KEVARD BERNIN</h1>
         <p class="pres">Donec condimentum massa eget eros scelerisque,<br> non sollicitudin lectus malesuada.<br> Duis consequat tortor in luctus scelerisque.<br> Nam sit amet tincidunt mauris.<br> Maecenas vehicula volutpat turpis sed dapibus.</p>
 
-        <div class="call animated pulse">
+        <div id="arrows" class="call animated pulse">
             <p class="TxtProjet">Voir mes projets</p>
             <img class="ArrowDown" src="Assets/Images/2ArrowDown.png" alt="two arrows down">
         </div> 

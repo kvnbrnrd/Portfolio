@@ -86,7 +86,7 @@ table {
 
 .pulse {
 	animation-duration: 2s;
-	animation-delay: 5s;
+	animation-delay: 3s;
 	animation-iteration-count: infinite;
   }
 
@@ -155,6 +155,7 @@ table {
 		left: 50%;
 		margin-left: -140px;
 		width: 280px;
+		cursor: pointer;
 	}
 
 
