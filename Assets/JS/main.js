@@ -52,8 +52,84 @@ window.addEventListener('wheel', function(e) {
 
   }
 
+  function animationProjet() {
+
+    TweenMax.to(".wrapper", 2, {
+        delay: 0.3,
+        top: "-200%",
+        ease: Expo.easeInOut
+    })
+    
+
+    TweenMax.from("#pageP2", 1, {
+        delay: 1.6,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+    })
+
+  }
+
+  function animationProjet2() {
+
+    TweenMax.to(".wrapper", 2, {
+        delay: 0.3,
+        top: "-300%",
+        ease: Expo.easeInOut
+    })
+    
+
+    TweenMax.from("#aboutme", 1, {
+        delay: 1.6,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+    })
+
+  }
+
+  function animationAbout() {
+
+    TweenMax.to(".wrapper", 2, {
+        delay: 0.3,
+        top: "-400%",
+        ease: Expo.easeInOut
+    })
+    
+
+    TweenMax.from(".fond", 1, {
+        delay: 1.6,
+        opacity: 0,
+        y: 20,
+        ease: Expo.easeInOut
+    })
+
+  }
+
+  function animationContact() {
+
+    TweenMax.to(".wrapper", 2, {
+        delay: 0.3,
+        top: "0%",
+        ease: Expo.easeInOut
+    })
+
+  }
+
   let home = document.getElementById('mouse');
   home.addEventListener("click", animationHome, false);
+
+  let projet = document.getElementById('mouse1');
+  projet.addEventListener("click", animationProjet, false);
+
+  let projet2 = document.getElementById('mouse2');
+  projet2.addEventListener("click", animationProjet2, false);
+
+  let about = document.getElementById('mouse3');
+  about.addEventListener("click", animationAbout, false);
+
+  let contact = document.getElementById('mouse4');
+  contact.addEventListener("click", animationContact, false);
 
 function validateForm() {
     var nom = document.getElementById('nom').value;

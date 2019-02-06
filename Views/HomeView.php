@@ -75,6 +75,13 @@
                     <div id="divimage" class="col-md-6">
                         <img id="imgprojet" src="Assets/Images/rickmail.png" alt="image Rick & Morty">
                     </div>
+                    <div id="mouse1" class="call1 animated pulse">
+                        <div class="scroll-downs">
+                            <div class="mousey">
+                                <div class="scroller"></div>
+                            </div>
+                        </div>
+                    </div> 
             </div> <!-- Fin  div row align-items-center -->
         </div> <!-- Fin div projet -->
     </div> <!-- Fin div PageP -->
@@ -85,7 +92,6 @@
 
 
 <!-- ------------------------------- Début Projet 2 -------------------------------- -->
-
     <div id="pageP2">
         <header>
             <nav class="navbar navbar-expand navbar-dark bg-dark">
@@ -126,6 +132,13 @@
                     <div id="divimage" class="col-md-6">
                         <img id="imgprojet" src="Assets/Images/gaumont.png" alt="fiche film">
                     </div>
+                    <div id="mouse2" class="call2 animated pulse">
+                        <div class="scroll-downs">
+                            <div class="mousey">
+                                <div class="scroller"></div>
+                            </div>
+                        </div>
+                    </div> 
             </div> <!-- Fin  div row align-items-center -->
         </div> <!-- Fin div projet -->
     </div> <!-- Fin div PageP2 -->
@@ -232,6 +245,13 @@
                 <a href="#"><img src="Assets/Images/rdgithub.png" alt="GitHub" class="col-4rd"></a>
                 <a href="#"><img src="Assets/Images/rdlinkedin.png" alt="Linkedin" class="col-4rd"></a>
             </div>
+            <div id="mouse3" class="call2 animated pulse">
+                        <div class="scroll-downs">
+                            <div class="mousey">
+                                <div class="scroller"></div>
+                            </div>
+                        </div>
+                    </div> 
         </div> <!-- Fin div container box -->
     </div> <!-- Fin div aboutme -->
 
@@ -292,7 +312,14 @@
                         <div class="text-center margin-top-25">
                             <button type="submit" class="btn btn-mod btn-border btn-large">Envoyer le message</button>
                         </div>
-                    </form> 
+                    </form>
+                    <div id="mouse4" class="call2 animated pulse">
+                        <div class="scroll-downs">
+                            <div class="mousey">
+                                <div class="scroller"></div>
+                            </div>
+                        </div>
+                    </div>  
                 </div> <!-- Fin div col-xs-12 col-sm-12 col-md-12 col-lg-12 -->
             </div> <!-- Fin div row -->
         </div> <!-- Fin div container -->
@@ -301,7 +328,6 @@
 
     
 <!-- ------------------------------- Fin Contact -------------------------------- -->
-
 
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
