@@ -67,6 +67,43 @@ table {
 		position: relative;
 	}
 
+	#home
+	{
+		height: 100vh;
+		width: 100vw;
+	}
+
+	#pageP
+	{
+		height: 100vh;
+		width: 100vw;
+	}
+
+	#pageP2
+	{
+		height: 100vh;
+		width: 100vw;
+		background-color: grey;
+	}
+
+	#pageP3
+	{
+		height: 100vh;
+		width: 100vw;
+	}
+
+	#aboutme
+	{
+		height: 100vh;
+		width: 100vw;
+	}
+
+	#contact, .fond
+	{
+		height: 100vh;
+		width: 100vw;
+	} 
+
 
 	@font-face {
 		font-family: 'orkney';
@@ -130,6 +167,8 @@ table {
 	animation-iteration-count: infinite;
   }
 
+
+
   @-webkit-keyframes pulse-slow {
 	from {
 	  -webkit-transform: scale3d(1, 1, 1);
@@ -175,6 +214,8 @@ table {
 	animation-iteration-count: infinite;
   }
 
+/* ******************************* Fin Animations pulse ******************************************** */
+
   .scroll-downs {
 	position: absolute;
 	top: 0;
@@ -202,44 +243,7 @@ table {
 	background-color: #fff;
   }
 
-/* ******************************* Fin Animations******************************************** */
-	#home
-	{
-		height: 100vh;
-		width: 100vw;
-	}
-
-	#pageP
-	{
-		height: 100vh;
-		width: 100vw;
-	}
-
-	#pageP2
-	{
-		height: 100vh;
-		width: 100vw;
-		background-color: grey;
-	}
-
-	#pageP3
-	{
-		height: 100vh;
-		width: 100vw;
-	}
-
-	#aboutme
-	{
-		height: 100vh;
-		width: 100vw;
-	}
-
-	#contact, .fond
-	{
-		height: 100vh;
-		width: 100vw;
-	} 
-
+/* ******************************* Fin Animations scroll ******************************************** */
 
 	.home
 	{
@@ -277,25 +281,6 @@ table {
 		cursor: pointer;
 	}
 
-	.call1
-	{
-		position: absolute;
-		bottom: 15rem;
-		left: 50%;
-		margin-left: -140px;
-		width: 280px;
-		cursor: pointer;
-	}
-
-	.call2
-	{
-		position: absolute;
-		bottom: 15rem;
-		left: 50%;
-		margin-left: -140px;
-		width: 280px;
-		cursor: pointer;
-	}
 
 
 	.TxtProjet
@@ -326,7 +311,7 @@ table {
 
  #projet
   { 
-	 background-color: #B064D4; /* #9933CC */
+	 background-color: #B064D4; 
 	 min-width: 100vw;
 	 min-height: 100vh;
  }
@@ -338,7 +323,7 @@ table {
 	margin-left: 5rem;
  }
 
- #titre
+ #titre, #titre2
  {
 	font-size: 5rem;
 	font-family: 'orkney', 'Times New Roman', Times, serif; 
@@ -347,7 +332,7 @@ table {
 	
  }
 
- #desc
+ #desc, #desc2
  {
 	font-size: 2.5rem;
 	font-family: 'karla', 'Times New Roman', Times, serif;
@@ -362,9 +347,14 @@ table {
 	color: #212529;
  }
 
- #arrow-right
+ .call1
  {
-	 padding-right: 1rem;
+	 position: absolute;
+	 bottom: 15rem;
+	 left: 50%;
+	 margin-left: -140px;
+	 width: 280px;
+	 cursor: pointer;
  }
 
 
@@ -380,7 +370,7 @@ table {
 	 margin-top: -20rem;
  }
 
- /* ******************************* Fin Projet  ******************************************** */
+ /* ******************************* Fin PROJEEEEEEEEEET  ******************************************** */
 
 
 /* ******************************* Fin Projet 2 ******************************************** */
@@ -412,6 +402,7 @@ table {
 	 height: 100vh;
 	 padding-top: 5rem;
  }
+
 
  
 
@@ -446,6 +437,16 @@ table {
 	padding: 10% 20% 10% 20%;
   }
   
+  .call2
+  {
+	  position: absolute;
+	  bottom: 4rem;
+	  left: 50%;
+	  margin-left: -140px;
+	  width: 280px;
+	  cursor: pointer;
+  }
+
   .margin-top-25 {
 	margin-top: 2.5rem;
   }
@@ -540,6 +541,35 @@ table {
 
 @media screen and (max-width: 576px) {
 
+	.scroll-downs {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		margin : auto;
+		
+		width: 21px;
+		height: 35px;
+	  }
+	  .mousey {
+		width: 3px;
+		padding: 5px 10px;
+		height: 21px;
+		border: 2px solid #fff;
+		border-radius: 25px;
+		opacity: 0.75;
+		box-sizing: content-box;
+	  }
+	  .scroller {
+		width: 3px;
+		height: 10px;
+		border-radius: 25%;
+		background-color: #fff;
+	  }
+
+/* ******************************* Fin Animations scroll ******************************************** */
+
 	h1
 	{
 		font-size: 8rem;
@@ -604,6 +634,7 @@ table {
 
 
 
+
 /* ******************************* Fin Header ******************************************** */
 
 	.align-items-center
@@ -624,7 +655,7 @@ table {
 
 	#desc
 	{
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 	font-family: 'karla', 'Times New Roman', Times, serif;
 	padding-bottom: 3rem;
 	margin-right: 2.5rem;
@@ -636,12 +667,6 @@ table {
 	font-family: 'karla', 'Times New Roman', Times, serif;
 	}
 
-	#arrow-right
-	{
-		padding-right: 1rem;
-		width: 30px;
-		height: 12px;
-	}
    
 	#gitP
 	{
@@ -651,7 +676,7 @@ table {
 
 	#imgprojet
 	{
-		height: 100%;
+		height: 90%;
 		width: 90%;
 	}
 
@@ -702,12 +727,12 @@ table {
 
 	form 
 	{
-		height: 100vh;
+		/* height: 100vh; */
 	}
 
 	.form-group .form-control {
-		padding: 2rem;
-		font-size: 1.5rem;
+		padding: 1.5rem;
+		font-size: 1.3rem;
 	  }
 
 /* ******************************* Fin Contact ******************************************** */

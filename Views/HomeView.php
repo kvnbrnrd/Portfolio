@@ -66,7 +66,7 @@
                         <h2 id="titre">R&M TRANSFER</h2>
                         <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
                         <!-- <p class="en" id="desc">ENGLISH TEXT </p> -->
-                    <div class="row justify-content-between">
+                    <div id="modal" class="row justify-content-between">
                         <a class="col align-self-end animated pulse-slow" href ="#" id="voir">VOIR PLUS</a>
                         <!-- <a class="col align-self-end en" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">SEE MORE</a> -->
                         <a href="#"><img id="gitP" src="Assets/Images/github.png" alt="GitHub"></a>
@@ -111,10 +111,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
-                    </ul>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img id="flag" src="Assets/Images/usflag.png" alt="drapeau USA"></a>
+                            <a class="nav-link" href="#">English</a>
                         </li>
+                    </ul>
                 </div> <!-- Fin div collapse -->
             </nav>
         </header>
@@ -124,15 +124,15 @@
                 <div class="col-md-6">
                         <h2 id="titre">CANCOILLOTTE GAUMONT</h2>
                         <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
-                    <div class="row justify-content-between">
-                        <a class="col align-self-end" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a>
+                    <div class="row justify-content-between modal2">
+                        <a class="col align-self-end animated pulse-slow" href ="#" id="voir">VOIR PLUS</a>
                         <a href="#"><img id="gitP" src="Assets/Images/github.png" alt="GitHub"></a>
                     </div>
                 </div> <!-- Fin div col-md-6 -->
                     <div id="divimage" class="col-md-6">
                         <img id="imgprojet" src="Assets/Images/gaumont.png" alt="fiche film">
                     </div>
-                    <div id="mouse2" class="call2 animated pulse">
+                    <div id="mouse2" class="call animated pulse">
                         <div class="scroll-downs">
                             <div class="mousey">
                                 <div class="scroller"></div>
@@ -149,49 +149,6 @@
 
 <!-- ------------------------------- Début Projet 3 -------------------------------- -->
 
-    <!-- <div id="pageP3">
-        <header>
-            <nav class="navbar navbar-expand navbar-dark bg-dark">
-                <div class="collapse navbar-collapse" id="navbarsExample02">
-                    <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="Assets/Images/logoVk.png" alt="logo"></a>
-                    </li>
-                    </ul>
-                    <ul class="navbar-nav my-2 my-md-0">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Projets</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">A Propos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    </ul>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><img id="flag" src="Assets/Images/usflag.png" alt="drapeau USA"></a>
-                    </li>
-                </div>
-            </nav>
-        </header>
-
-        <div id="projet3" class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <h2 id="titre">TITRE PROJET</h2>
-                    <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
-                    <div class="row justify-content-between">
-                    <a class="col align-self-end" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">VOIR PLUS</a>
-                    <a href="#"><img id="gitP" src="Assets/Images/github.png" alt="GitHub"></a>
-                    </div>
-                </div>
-                    <div id="divimage" class="col-md-6">
-                        <img id="imgprojet" src="" alt="">
-                    </div>
-            </div>
-        </div> Fin div projet3
-    </div> Fin div PageP -->
 
     
 <!-- ------------------------------- Fin Projet 3 -------------------------------- -->
@@ -218,10 +175,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
-                    </ul>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img id="flag" src="Assets/Images/usflag.png" alt="drapeau USA"></a>
+                            <a class="nav-link" href="#">English</a>
                         </li>
+                    </ul>
                 </div> <!-- Fin  div row align-items-center -->
             </nav>
         </header>
@@ -245,7 +202,7 @@
                 <a href="#"><img src="Assets/Images/rdgithub.png" alt="GitHub" class="col-4rd"></a>
                 <a href="#"><img src="Assets/Images/rdlinkedin.png" alt="Linkedin" class="col-4rd"></a>
             </div>
-            <div id="mouse3" class="call2 animated pulse">
+            <div id="mouse3" class="call animated pulse">
                         <div class="scroll-downs">
                             <div class="mousey">
                                 <div class="scroller"></div>
@@ -280,10 +237,10 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
-                    </ul>
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img id="flag" src="Assets/Images/usflag.png" alt="drapeau USA"></a>
+                            <a class="nav-link" href="#">English</a>
                         </li>
+                    </ul>
                 </div> <!-- Fin div collapse -->
             </nav>
         </header>
@@ -313,14 +270,14 @@
                             <button type="submit" class="btn btn-mod btn-border btn-large">Envoyer le message</button>
                         </div>
                     </form>
-                    <div id="mouse4" class="call2 animated pulse">
+                    </div>  
+                </div> <!-- Fin div col-xs-12 col-sm-12 col-md-12 col-lg-12 -->
+                <div id="mouse4" class="call2 animated pulse">
                         <div class="scroll-downs">
                             <div class="mousey">
                                 <div class="scroller"></div>
                             </div>
                         </div>
-                    </div>  
-                </div> <!-- Fin div col-xs-12 col-sm-12 col-md-12 col-lg-12 -->
             </div> <!-- Fin div row -->
         </div> <!-- Fin div container -->
     </div> <!-- Fin div fond -->

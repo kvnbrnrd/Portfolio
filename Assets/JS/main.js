@@ -29,26 +29,6 @@ window.addEventListener('wheel', function(e) {
         ease: Expo.easeInOut
     })
 
-    TweenMax.from("h2", 1, {
-        delay: 1.8,
-        opacity: 0,
-        y: 20,
-        ease: Expo.easeInOut
-    })
-
-    TweenMax.from("#desc", 1, {
-        delay: 2.1,
-        opacity: 0,
-        y: 20,
-        ease: Expo.easeInOut
-    })
-
-    TweenMax.from(".justify-content-between", 1, {
-        delay: 2.3,
-        opacity: 0,
-        y: 20,
-        ease: Expo.easeInOut
-    })
 
   }
 
@@ -60,13 +40,14 @@ window.addEventListener('wheel', function(e) {
         ease: Expo.easeInOut
     })
     
-
     TweenMax.from("#pageP2", 1, {
         delay: 1.6,
         opacity: 0,
         y: 20,
         ease: Expo.easeInOut
     })
+
+    
 
   }
 
