@@ -1,3 +1,5 @@
+new WOW().init();
+
 function validateForm() {
     var nom = document.getElementById('nom').value;
     var email = document.getElementById('email').value;

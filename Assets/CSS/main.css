@@ -79,20 +79,20 @@ table {
 		}
 
 /* ******************************* Fin Général ******************************************** */
-	#home
-	{
-		display: none;
-	}
-
-	#pageP
-	{
-		display: none;
-	}
-
-	/* #pageP2
+	/* #home
 	{
 		display: none;
 	} */
+
+	/* #pageP
+	{
+		display: none;
+	} */
+
+	#pageP2
+	{
+		display: none;
+	}
 
 	#pageP3
 	{
@@ -178,8 +178,8 @@ table {
 /* ******************************* Fin Header******************************************** */
 
  #projet
- {
-	 background-color: #B064D4;
+  { 
+	 background-color: #B064D4; /* #9933CC */
 	 min-width: 100vw;
 	 min-height: 100vh;
  }
