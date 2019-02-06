@@ -1,4 +1,15 @@
-new WOW().init();
+TweenMax.to(".wrapper", 2, {
+    delay: 1,
+    top: "-100%",
+    ease: Expo.easeInOut
+})
+
+TweenMax.from("#pageP", 1, {
+    delay: 2.4,
+    opacity: 0,
+    y: 20,
+    ease: Expo.easeInOut
+})
 
 function validateForm() {
     var nom = document.getElementById('nom').value;

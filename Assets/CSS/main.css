@@ -62,6 +62,10 @@ table {
 		font-size: 62.5%; 
 	}
 
+	.wrapper
+	{
+		position: relative;
+	}
 
 	@font-face {
 		font-family: 'orkney';
@@ -79,6 +83,14 @@ table {
 		}
 
 /* ******************************* Fin Général ******************************************** */
+
+.pulse {
+	animation-duration: 2s;
+	animation-delay: 5s;
+	animation-iteration-count: infinite;
+  }
+
+/* ******************************* Fin Animations******************************************** */
 	/* #home
 	{
 		display: none;
@@ -89,25 +101,25 @@ table {
 		display: none;
 	} */
 
-	#pageP2
+	/* #pageP2
 	{
 		display: none;
-	}
+	} */
 
-	#pageP3
+	/* #pageP3
 	{
 		display: none;
-	}
+	} */
 
-	#aboutme
+	/* #aboutme
 	{
 		display: none;
-	}
+	} */
 
-	#contact, .fond
+	/* #contact, .fond
 	{
 		display: none;
-	} 
+	}  */
 
 
 	.home
