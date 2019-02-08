@@ -170,6 +170,43 @@ function validateForm() {
       
 }
 
+// var languageSwitchInEnglish = document.getElementById('inEnglish');
+// var languageSwitchInFrench = document.getElementById('inFrench');
+// var anglais = document.getElementsByClassName('anglais');
+// var francois = document.getElementsByClassName('francais');
+
+// for (var i = 0; i < francois.length; i++) {
+// francois[i].style.display = 'block';
+// }
+
+// for (var i = 0; i < anglais.length; i++) {
+// anglais[i].style.display = 'none';
+// }
+
+// function switchIdiomaEN() {
+// for (var i = 0; i < francois.length; i++) {
+// francois[i].style.display = "none";
+// }
+
+// for (var i = 0; i < anglais.length; i++) {
+// anglais[i].style.display = 'block';
+// }
+// }
+
+// languageSwitchInEnglish.addEventListener('click', switchIdiomaEN);
+
+// function switchIdiomaFR() {
+// for (var i = 0; i < francois.length; i++) {
+// francois[i].style.display = 'block';
+// }
+
+// for (var i = 0; i < anglais.length; i++) {
+// anglais[i].style.display = "none";
+// }
+// }
+
+// languageSwitchInFrench.addEventListener('click', switchIdiomaFR); 
+
 // let English = document.querySelectorAll('.en');
 // let French = document.querySelectorAll('.fr');
 // result;
@@ -197,3 +234,5 @@ function validateForm() {
 // }
 
 // JQuery ToggleClass !!!
+
+//Contenu à cibler : h1, p, ul > li > a, h2, #modal, .pulse-slow, button, 
