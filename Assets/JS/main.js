@@ -92,8 +92,9 @@ window.addEventListener('wheel', function(e) {
     TweenMax.to(".wrapper", 2, {
         delay: 0.3,
         top: "0%",
-        ease: Expo.easeInOut
+        ease: Back.easeOut
     })
+    
 
   }
 
