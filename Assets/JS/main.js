@@ -1,11 +1,82 @@
-window.addEventListener('wheel', function(e) {
-    if (e.deltaY < 0) {
-      console.log('scrolling up');
+var switchFr = document.getElementById('switchFr');
+var switchEn = document.getElementById('switchEn');
+var switchFr2 = document.getElementById('switchFr2');
+var switchEn2 = document.getElementById('switchEn2');
+var switchFr3 = document.getElementById('switchFr3');
+var switchEn3 = document.getElementById('switchEn3');
+var switchFr4 = document.getElementById('switchFr4');
+var switchEn4 = document.getElementById('switchEn4');
+
+var FrItems = document.getElementsByClassName('fr');
+var EnItems = document.getElementsByClassName('en');
+var FrBtn = document.getElementsByClassName('btn-fr');
+var EnBtn = document.getElementsByClassName('btn-en');
+
+function switchLang(fromLang, toLang){
+    for (let i = 0; i < FrItems.length; i++) {
+        fromLang[i].style.display = "none";
+        toLang[i].style.display = "block";
     }
-    if (e.deltaY > 0) {
-      console.log('scrolling down');
-    }
-  });
+}
+
+function switchBtn(fromBtn, toBtn){
+  for (let i = 0; i < FrBtn.length; i++) {
+      fromBtn[i].style.display = "none";
+      toBtn[i].style.display = "inline-block";
+  }
+}
+
+switchLang(EnItems, FrItems);
+switchBtn(EnBtn, FrBtn);
+
+
+switchFr.addEventListener('click', function(){
+    switchLang(EnItems, FrItems);
+});
+switchEn.addEventListener('click', function(){
+    switchLang(FrItems, EnItems);
+});
+
+switchFr2.addEventListener('click', function(){
+  switchLang(EnItems, FrItems);
+});
+switchEn2.addEventListener('click', function(){
+  switchLang(FrItems, EnItems);
+});
+
+switchFr3.addEventListener('click', function(){
+  switchLang(EnItems, FrItems);
+  switchBtn(EnBtn, FrBtn);
+});
+switchEn3.addEventListener('click', function(){
+  switchLang(FrItems, EnItems);
+  switchBtn(FrBtn, EnBtn);
+});
+
+switchFr4.addEventListener('click', function(){
+  switchLang(EnItems, FrItems);
+  switchBtn(EnBtn, FrBtn);
+});
+switchEn4.addEventListener('click', function(){
+  switchLang(FrItems, EnItems);
+  switchBtn(FrBtn, EnBtn);
+});
+
+
+// Si bug, vérifier qu'il y a bien le même nombre d'éléments en et fr 
+
+// ----------------------- Fin fonction changement de langue ----------------------------
+
+
+
+// window.addEventListener('wheel', function(e) {
+//     if (e.deltaY < 0) {
+//       console.log('scrolling up');
+//     }
+//     if (e.deltaY > 0) {
+//       console.log('scrolling down');
+//     }
+//   });
 
   function animationHome() {
 
@@ -113,6 +184,12 @@ window.addEventListener('wheel', function(e) {
   let contact = document.getElementById('retour');
   contact.addEventListener("click", animationContact, false);
 
+  let contact2 = document.getElementById('retour2');
+  contact2.addEventListener("click", animationContact, false);
+
+
+  // ----------------------- Fin animations pages ----------------------------
+
 function validateForm() {
     var nom = document.getElementById('nom').value;
     var email = document.getElementById('email').value;
@@ -171,69 +248,5 @@ function validateForm() {
       
 }
 
-// var languageSwitchInEnglish = document.getElementById('inEnglish');
-// var languageSwitchInFrench = document.getElementById('inFrench');
-// var anglais = document.getElementsByClassName('anglais');
-// var francois = document.getElementsByClassName('francais');
+ // ----------------------- Fin vérif formulaire contact côté utilisateur ----------------------------
 
-// for (var i = 0; i < francois.length; i++) {
-// francois[i].style.display = 'block';
-// }
-
-// for (var i = 0; i < anglais.length; i++) {
-// anglais[i].style.display = 'none';
-// }
-
-// function switchIdiomaEN() {
-// for (var i = 0; i < francois.length; i++) {
-// francois[i].style.display = "none";
-// }
-
-// for (var i = 0; i < anglais.length; i++) {
-// anglais[i].style.display = 'block';
-// }
-// }
-
-// languageSwitchInEnglish.addEventListener('click', switchIdiomaEN);
-
-// function switchIdiomaFR() {
-// for (var i = 0; i < francois.length; i++) {
-// francois[i].style.display = 'block';
-// }
-
-// for (var i = 0; i < anglais.length; i++) {
-// anglais[i].style.display = "none";
-// }
-// }
-
-// languageSwitchInFrench.addEventListener('click', switchIdiomaFR); 
-
-// let English = document.querySelectorAll('.en');
-// let French = document.querySelectorAll('.fr');
-// result;
-// for (var i = 0; i < div.length; i++) {
-//     result = div[i];
-//     result.addEventListener('click', function Change() {
-
-// });
-
-
-
-// // var els = document.querySelectorAll('.panel');
-// // els.forEach(function (el) {
-// //     el.style.display = "none";
-// // });
-
-
-// 		var div = document.querySelectorAll('div'),
-// 			result;
-// 		for (var i = 0; i < div.length; i++) {
-// 	    result = div[i];
-// 	    result.addEventListener('click', function() {
-// 			alert(this.innerHTML);
-// 		});
-// }
-
-// JQuery ToggleClass !!!
-
-//Contenu à cibler : h1, p, ul > li > a, h2, #modal, .pulse-slow, button, 

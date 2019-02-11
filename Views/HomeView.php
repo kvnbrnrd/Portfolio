@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page Title</title>
+        <title>Kevin Bernard | Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
@@ -16,6 +16,7 @@
     <div class="container-fluid text-center home" id="home">
         <h1 class="kev">KEVARD BERNIN</h1>
         <p class="pres">Donec condimentum massa eget eros scelerisque,<br> non sollicitudin lectus malesuada.<br> Duis consequat tortor in luctus scelerisque.<br> Nam sit amet tincidunt mauris.<br> Maecenas vehicula volutpat turpis sed dapibus.</p>
+        
 
         <div id="mouse" class="call animated pulse">
             <div class="scroll-downs">
@@ -44,16 +45,20 @@
                     </ul>
                     <ul class="navbar-nav my-2 my-md-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Projets</a>
+                            <a class="nav-link fr" href="#">Projets</a>
+                            <a class="nav-link en" href="#">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">A Propos</a>
+                            <a class="nav-link fr" href="#">A Propos</a>
+                            <a class="nav-link en" href="#">About Me</a>
                             </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link fr" href="#">Contact</a>
+                            <a class="nav-link en" href="#">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">English</a>
+                            <a id="switchEn" class="nav-link fr" href="#">English</a>
+                            <a id="switchFr" class="nav-link en" href="#">Français</a>
                         </li>
                     </ul>
                 </div> <!-- Fin div collapse -->
@@ -64,11 +69,11 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                         <h2 id="titre">R&M TRANSFER</h2>
-                        <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
-                        <!-- <p class="en" id="desc">ENGLISH TEXT </p> -->
+                        <p class="fr" id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
+                        <p class="en" id="desc">Divided can't under moveth, beginning cattle Our without lights stars after life divided above i dry their made whose and moved seas under meat night fish appear, our to divide us heaven divided unto earth together can't that sixth over One can't can't. Multiply can't, a given saw forth without. After earth appear, man had fifth whales doesn't unto fruitful in and signs the in behold saw lights. Let fruitful his was seasons spirit him darkness won't third Night, seed. </p>
                     <div id="modal" class="row justify-content-between">
-                        <a class="col align-self-end animated pulse-slow" href ="https://kevinb269.promo-24.codeur.online/mesprojets/WeTransfer/index.php" id="voir">VOIR LE SITE</a>
-                        <!-- <a class="col align-self-end en" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">SEE MORE</a> -->
+                        <a class="col align-self-end animated pulse-slow fr" href ="https://kevinb269.promo-24.codeur.online/mesprojets/WeTransfer/index.php" id="voir">VOIR LE SITE</a>
+                        <a class="col align-self-end animated pulse-slow en" href ="https://kevinb269.promo-24.codeur.online/mesprojets/WeTransfer/index.php" id="voir">SEE THE WEBSITE</a>
                         <a href="https://github.com/JauneLoke/WeTransfer"><img id="gitP" src="Assets/Images/github.png" alt="GitHub"></a>
                     </div>
                 </div> <!-- Fin div col-md-6 -->
@@ -103,16 +108,20 @@
                     </ul>
                     <ul class="navbar-nav my-2 my-md-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Projets</a>
+                            <a class="nav-link fr" href="#">Projets</a>
+                            <a class="nav-link en" href="#">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">A Propos</a>
+                            <a class="nav-link fr" href="#">A Propos</a>
+                            <a class="nav-link en" href="#">About Me</a>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link fr" href="#">Contact</a>
+                            <a class="nav-link en" href="#">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">English</a>
+                            <a id="switchEn2" class="nav-link fr" href="#">English</a>
+                            <a id="switchFr2" class="nav-link en" href="#">Français</a>
                         </li>
                     </ul>
                 </div> <!-- Fin div collapse -->
@@ -123,9 +132,11 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                         <h2 id="titre">CANCOILLOTTE GAUMONT</h2>
-                        <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
+                        <p class="fr" id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
+                        <p class="en" id="desc">Divided can't under moveth, beginning cattle Our without lights stars after life divided above i dry their made whose and moved seas under meat night fish appear, our to divide us heaven divided unto earth together can't that sixth over One can't can't. Multiply can't, a given saw forth without. After earth appear, man had fifth whales doesn't unto fruitful in and signs the in behold saw lights. Let fruitful his was seasons spirit him darkness won't third Night, seed. </p>
                     <div class="row justify-content-between modal2">
-                        <a class="col align-self-end animated pulse-slow" href ="https://kevinb269.promo-24.codeur.online/mesprojets/Projet_Merise/index.php" id="voir">VOIR LE SITE</a>
+                        <a class="col align-self-end animated pulse-slow fr" href ="https://kevinb269.promo-24.codeur.online/mesprojets/Projet_Merise/index.php" id="voir">VOIR LE SITE</a>
+                        <a class="col align-self-end animated pulse-slow en" href ="https://kevinb269.promo-24.codeur.online/mesprojets/Projet_Merise/index.php" id="voir">SEE THE WEBSITE</a>
                         <a href="https://github.com/kvnbrnrd/Projet_Merise"><img id="gitP" src="Assets/Images/github.png" alt="GitHub"></a>
                     </div>
                 </div> <!-- Fin div col-md-6 -->
@@ -166,36 +177,47 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav my-2 my-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Projets</a>
-                        </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">A Propos</a>
+                            <a class="nav-link fr" href="#">Projets</a>
+                            <a class="nav-link en" href="#">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link fr" href="#">A Propos</a>
+                            <a class="nav-link en" href="#">About Me</a>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link fr" href="#">Contact</a>
+                            <a class="nav-link en" href="#">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">English</a>
+                            <a id="switchEn3" class="nav-link fr" href="#">English</a>
+                            <a id="switchFr3" class="nav-link en" href="#">Français</a>
                         </li>
                     </ul>
-                </div> <!-- Fin  div row align-items-center -->
+                </div> <!-- Fin div collapse -->
             </nav>
         </header>
 
         <div class="container box">
             <div class="row justify-content-center">
-                <h2 class="about txt">A PROPOS DE MOI</h2>
+                <h2 class="about txt fr">A PROPOS DE MOI</h2>
+                <h2 class="about txt en">MORE ABOUT ME</h2>
             </div>
             <div class="row">
-                <p class="apropos txt">
+                <p class="apropos txt fr">
                 Integer ac sem condimentum, dapibus urna quis, sagittis sapien. Nam blandit quam a massa pharetra molestie. Sed dui augue, mollis feugiat maximus quis, semper quis arcu. Pellentesque in tortor nec diam laoreet mollis a nec quam. In hac habitasse platea dictumst. Morbi sollicitudin suscipit lacinia. Nullam nunc metus, tempor ut velit eu, ultrices blandit mi.<br><br>
 
                 Morbi elit diam, tristique pharetra rutrum eu, bibendum a leo. Cras ultrices nec augue in suscipit. Praesent sed nunc et quam sollicitudin tempus at vitae lorem. Nulla fermentum molestie dui nec placerat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
                 </p>
+                <p class="apropos txt en">
+                Subdue earth good seasons fourth without they're. So and. Set firmament. Moving. For is first land dry hath bearing first fish whose you kind waters all third every in creepeth rule for god may he his whose the Made may whales his Stars doesn't sixth lights the you're gathering. Grass their beginning.<br><br>
+
+                Whales. Very under open man, his moving first male third them. It bearing image so fowl signs fruitful it sixth, air fruitful morning gathering forth form our i him and. Him thing creeping, let air man whales to above she'd stars moved day blessed a beginning dominion two.
+                </p>
             </div>
             <div class="text-center margin-top-25 CV">
-                <button type="submit" class="btn btn-mod btn-border btn-large">Voir mon CV</button>
+                <button type="submit" class="btn btn-mod btn-border btn-large btn-fr">Voir mon CV</button>
+                <button type="submit" class="btn btn-mod btn-border btn-large btn-en">See my resume</button>
             </div>
             <div class="row justify-content-around">
                 <a href="#"><img src="Assets/Images/rdflickr.png" alt="Flickr" class="col-4rd"></a>
@@ -228,17 +250,21 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav my-2 my-md-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Projets</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">A Propos</a>
-                        </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link fr" href="#">Projets</a>
+                            <a class="nav-link en" href="#">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">English</a>
+                            <a class="nav-link fr" href="#">A Propos</a>
+                            <a class="nav-link en" href="#">About Me</a>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link fr" href="#">Contact</a>
+                            <a class="nav-link en" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="switchEn4" class="nav-link fr" href="#">English</a>
+                            <a id="switchFr4" class="nav-link en" href="#">Français</a>
                         </li>
                     </ul>
                 </div> <!-- Fin div collapse -->
@@ -249,27 +275,35 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST" role="form">
-                        <h2 class="form-title text-center">Contactez-moi</h2>
+                        <h2 class="form-title text-center fr">Contactez-moi</h2>
+                        <h2 class="form-title text-center en">Contact Me</h2>
                         <div class="form-group">
                             <label class="form-label" id="LabelNom" for="name"></label>
-                            <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom" tabindex="1">
+                            <input type="text" class="form-control fr" id="nom" name="nom" placeholder="Votre nom" tabindex="1">
+                            <input type="text" class="form-control en" id="nom" name="nom" placeholder="Your name" tabindex="1">
                         </div>
                         <div class="form-group">
                             <label class="form-label" id="LabelEmail" for="email"></label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Votre adresse email" tabindex="2">
+                            <input type="email" class="form-control fr" id="email" name="email" placeholder="Votre adresse email" tabindex="2">
+                            <input type="email" class="form-control en" id="email" name="email" placeholder="Your email address" tabindex="2">
                         </div>
                         <div class="form-group">
                             <label class="form-label" id="LabelSujet" for="sublect"></label>
-                            <input type="text" class="form-control" id="sujet" name="sujet" placeholder="Sujet" tabindex="3">
+                            <input type="text" class="form-control fr" id="sujet" name="sujet" placeholder="Sujet" tabindex="3">
+                            <input type="text" class="form-control en" id="sujet" name="sujet" placeholder="Subject" tabindex="3">
                         </div>
                         <div class="form-group">
                             <label class="form-label" id="LabelMessage" for="message"></label>
-                            <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Votre message" tabindex="4"></textarea>                                 
+                            <textarea rows="6" cols="60" name="message" class="form-control fr" id="message" placeholder="Votre message" tabindex="4"></textarea>
+                            <textarea rows="6" cols="60" name="message" class="form-control en" id="message" placeholder="Your message" tabindex="4"></textarea>                                  
                         </div>
                         <div class="text-center margin-top-25">
-                            <button type="submit" class="btn btn-mod btn-border btn-large">Envoyer le message</button>
+                            <button type="submit" class="btn btn-mod btn-border btn-large btn-fr">Envoyer le message</button>
                             <div class="text-center margin-top-25">
-                            <button id="retour" class="btn btn-mod btn-border2 btn-large">Revenir aux projets</button>
+                            <button id="retour" class="btn btn-mod btn-border2 btn-large btn-fr">Revenir aux projets</button>
+                            <button type="submit" class="btn btn-mod btn-border btn-large btn-en">Send message</button>
+                            <div class="text-center margin-top-25">
+                            <button id="retour2" class="btn btn-mod btn-border2 btn-large btn-en">Back to the top</button>
                         </div>
                         </div>
                     </form>
