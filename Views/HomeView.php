@@ -216,8 +216,8 @@
                 </p>
             </div>
             <div class="text-center margin-top-25 CV">
-                <button type="submit" class="btn btn-mod btn-border btn-large btn-fr">Voir mon CV</button>
-                <button type="submit" class="btn btn-mod btn-border btn-large btn-en">See my resume</button>
+                <button type="submit" class="btn btn-mod btn-border btn-large fr">Voir mon CV</button>
+                <button type="submit" class="btn btn-mod btn-border btn-large en">See my resume</button>
             </div>
             <div class="row justify-content-around">
                 <a href="#"><img src="Assets/Images/rdflickr.png" alt="Flickr" class="col-4rd"></a>
@@ -298,12 +298,11 @@
                             <textarea rows="6" cols="60" name="message" class="form-control en" id="message" placeholder="Your message" tabindex="4"></textarea>                                  
                         </div>
                         <div class="text-center margin-top-25">
-                            <button type="submit" class="btn btn-mod btn-border btn-large btn-fr">Envoyer le message</button>
-                            <div class="text-center margin-top-25">
-                            <button id="retour" class="btn btn-mod btn-border2 btn-large btn-fr">Revenir aux projets</button>
-                            <button type="submit" class="btn btn-mod btn-border btn-large btn-en">Send message</button>
-                            <div class="text-center margin-top-25">
-                            <button id="retour2" class="btn btn-mod btn-border2 btn-large btn-en">Back to the top</button>
+                            <button type="submit" class="btn btn-mod btn-border btn-large fr">Envoyer le message</button>
+                            <button id="retour" class="btn btn-mod btn-border2 btn-large fr">Revenir aux projets</button>
+                        <div class="text-center margin-top-25">
+                            <button type="submit" class="btn btn-mod btn-border btn-large en">Send message</button>
+                            <button id="retour2" class="btn btn-mod btn-border2 btn-large en">Back to the top</button>
                         </div>
                         </div>
                     </form>

@@ -9,25 +9,23 @@ var switchEn4 = document.getElementById('switchEn4');
 
 var FrItems = document.getElementsByClassName('fr');
 var EnItems = document.getElementsByClassName('en');
-var FrBtn = document.getElementsByClassName('btn-fr');
-var EnBtn = document.getElementsByClassName('btn-en');
+
 
 function switchLang(fromLang, toLang){
     for (let i = 0; i < FrItems.length; i++) {
+      if(fromLang[i].nodeName === "BUTTON"){
+        fromLang[i].style.display = "none";
+        toLang[i].style.display = "inline-block";
+      }
+      else{
         fromLang[i].style.display = "none";
         toLang[i].style.display = "block";
+      }
     }
 }
 
-function switchBtn(fromBtn, toBtn){
-  for (let i = 0; i < FrBtn.length; i++) {
-      fromBtn[i].style.display = "none";
-      toBtn[i].style.display = "inline-block";
-  }
-}
 
 switchLang(EnItems, FrItems);
-switchBtn(EnBtn, FrBtn);
 
 
 switchFr.addEventListener('click', function(){
@@ -46,20 +44,16 @@ switchEn2.addEventListener('click', function(){
 
 switchFr3.addEventListener('click', function(){
   switchLang(EnItems, FrItems);
-  switchBtn(EnBtn, FrBtn);
 });
 switchEn3.addEventListener('click', function(){
   switchLang(FrItems, EnItems);
-  switchBtn(FrBtn, EnBtn);
 });
 
 switchFr4.addEventListener('click', function(){
   switchLang(EnItems, FrItems);
-  switchBtn(EnBtn, FrBtn);
 });
 switchEn4.addEventListener('click', function(){
   switchLang(FrItems, EnItems);
-  switchBtn(FrBtn, EnBtn);
 });
 
 
@@ -162,8 +156,8 @@ switchEn4.addEventListener('click', function(){
 
     TweenMax.to(".wrapper", 2, {
         delay: 0.3,
-        top: "0%",
-        ease: Back.easeOut
+        top: "-100%",
+        ease: Power4.easeOut
     })
     
 
