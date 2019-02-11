@@ -67,9 +67,9 @@
                         <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
                         <!-- <p class="en" id="desc">ENGLISH TEXT </p> -->
                     <div id="modal" class="row justify-content-between">
-                        <a class="col align-self-end animated pulse-slow" href ="#" id="voir">VOIR PLUS</a>
+                        <a class="col align-self-end animated pulse-slow" href ="https://kevinb269.promo-24.codeur.online/mesprojets/WeTransfer/index.php" id="voir">VOIR LE SITE</a>
                         <!-- <a class="col align-self-end en" href ="#" id="voir"><img id="arrow-right" src="Assets/Images/arrow_right.png" alt="">SEE MORE</a> -->
-                        <a href="#"><img id="gitP" src="Assets/Images/github.png" alt="GitHub"></a>
+                        <a href="https://github.com/JauneLoke/WeTransfer"><img id="gitP" src="Assets/Images/github.png" alt="GitHub"></a>
                     </div>
                 </div> <!-- Fin div col-md-6 -->
                     <div id="divimage" class="col-md-6">
@@ -125,8 +125,8 @@
                         <h2 id="titre">CANCOILLOTTE GAUMONT</h2>
                         <p id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
                     <div class="row justify-content-between modal2">
-                        <a class="col align-self-end animated pulse-slow" href ="#" id="voir">VOIR PLUS</a>
-                        <a href="#"><img id="gitP" src="Assets/Images/github.png" alt="GitHub"></a>
+                        <a class="col align-self-end animated pulse-slow" href ="https://kevinb269.promo-24.codeur.online/mesprojets/Projet_Merise/index.php" id="voir">VOIR LE SITE</a>
+                        <a href="https://github.com/kvnbrnrd/Projet_Merise"><img id="gitP" src="Assets/Images/github.png" alt="GitHub"></a>
                     </div>
                 </div> <!-- Fin div col-md-6 -->
                     <div id="divimage" class="col-md-6">
@@ -268,16 +268,13 @@
                         </div>
                         <div class="text-center margin-top-25">
                             <button type="submit" class="btn btn-mod btn-border btn-large">Envoyer le message</button>
+                            <div class="text-center margin-top-25">
+                            <button id="retour" class="btn btn-mod btn-border2 btn-large">Revenir aux projets</button>
+                        </div>
                         </div>
                     </form>
                     </div>  
                 </div> <!-- Fin div col-xs-12 col-sm-12 col-md-12 col-lg-12 -->
-                <div id="mouse4" class="call2 animated pulse">
-                        <div class="scroll-downs">
-                            <div class="mousey">
-                                <div class="scroller"></div>
-                            </div>
-                        </div>
             </div> <!-- Fin div row -->
         </div> <!-- Fin div container -->
     </div> <!-- Fin div fond -->

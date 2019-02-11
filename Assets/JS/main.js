@@ -110,7 +110,7 @@ window.addEventListener('wheel', function(e) {
   let about = document.getElementById('mouse3');
   about.addEventListener("click", animationAbout, false);
 
-  let contact = document.getElementById('mouse4');
+  let contact = document.getElementById('retour');
   contact.addEventListener("click", animationContact, false);
 
 function validateForm() {

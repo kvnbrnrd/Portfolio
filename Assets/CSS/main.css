@@ -83,7 +83,7 @@ table {
 	{
 		height: 100vh;
 		width: 100vw;
-		background-color: grey;
+		background-color: #D5D7D8;
 	}
 
 	#pageP3
@@ -528,6 +528,12 @@ table {
 	  background: transparent;
 	  margin-bottom: 2.5rem;
   }
+
+  .btn-mod.btn-border2 {
+	color: #000000;
+	background: transparent;
+	margin-bottom: 2.5rem;
+}
   
   .btn-mod, a.btn-mod {
 	  -webkit-box-sizing: border-box;
@@ -556,12 +562,13 @@ table {
 	  transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
   }
   
-  .btn-mod.btn-border:hover, .btn-mod.btn-border:active, .btn-mod.btn-border:focus, .btn-mod.btn-border:active:focus {
+  .btn-mod.btn-border:hover, .btn-mod.btn-border2:hover, .btn-mod.btn-border:active, .btn-mod.btn-border2:active, .btn-mod.btn-border:focus, .btn-mod.btn-border2:focus, .btn-mod.btn-border:active:focus, .btn-mod.btn-border2:active:focus {
 	  color: #fff;
 	  border-color: #000;
 	  background: #000;
 	  outline: none;
   }
+
 
 /* ******************************* Fin Contact ******************************************** */
 
@@ -762,13 +769,32 @@ table {
 
 	form 
 	{
-		/* height: 100vh; */
+		height: 100vh;
 	}
 
 	.form-group .form-control {
 		padding: 1.5rem;
 		font-size: 1.3rem;
 	  }
+
+	  .btn-mod.btn-large {
+		height: auto;
+		padding: 7px 26px;
+		font-size: 1.2rem;
+	}
+	
+	.btn-mod.btn-border {
+		color: #000000;
+		border: 1px solid #000000;
+		background: transparent;
+		margin-bottom: 1.5rem;
+	}
+  
+	.btn-mod.btn-border2 {
+	  color: #000000;
+	  background: transparent;
+	  margin-bottom: 1.5rem;
+  }
 
 /* ******************************* Fin Contact ******************************************** */
    
