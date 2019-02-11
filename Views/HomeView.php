@@ -44,9 +44,13 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav my-2 my-md-0">
-                        <li class="nav-item active">
-                            <a class="nav-link fr" href="#">Projets</a>
-                            <a class="nav-link en" href="#">Projects</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fr" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projets</a>
+                            <a class="nav-link dropdown-toggle en" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="#">R&M Transfer</a>
+                                <a class="dropdown-item" href="#">Cancoillotte Gaumont</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link fr" href="#">A Propos</a>
@@ -107,9 +111,13 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav my-2 my-md-0">
-                        <li class="nav-item active">
-                            <a class="nav-link fr" href="#">Projets</a>
-                            <a class="nav-link en" href="#">Projects</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fr" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projets</a>
+                            <a class="nav-link dropdown-toggle en" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="#">R&M Transfer</a>
+                                <a class="dropdown-item" href="#">Cancoillotte Gaumont</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link fr" href="#">A Propos</a>
@@ -177,9 +185,13 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav my-2 my-md-0">
-                        <li class="nav-item active">
-                            <a class="nav-link fr" href="#">Projets</a>
-                            <a class="nav-link en" href="#">Projects</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fr" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projets</a>
+                            <a class="nav-link dropdown-toggle en" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="#">R&M Transfer</a>
+                                <a class="dropdown-item" href="#">Cancoillotte Gaumont</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link fr" href="#">A Propos</a>
@@ -240,7 +252,7 @@
 
 
 <!-- ------------------------------- Début Contact -------------------------------- -->
-    <div class="fond">
+    <div id="fond">
         <header>
             <nav class="navbar navbar-expand navbar-dark bg-dark">
                 <div class="collapse navbar-collapse" id="navbarsExample02">
@@ -250,9 +262,13 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav my-2 my-md-0">
-                        <li class="nav-item active">
-                            <a class="nav-link fr" href="#">Projets</a>
-                            <a class="nav-link en" href="#">Projects</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fr" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projets</a>
+                            <a class="nav-link dropdown-toggle en" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                <a class="dropdown-item" href="#">R&M Transfer</a>
+                                <a class="dropdown-item" href="#">Cancoillotte Gaumont</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link fr" href="#">A Propos</a>
@@ -278,31 +294,35 @@
                         <h2 class="form-title text-center fr">Contactez-moi</h2>
                         <h2 class="form-title text-center en">Contact Me</h2>
                         <div class="form-group">
-                            <label class="form-label" id="LabelNom" for="name"></label>
+                            <label class="form-label fr" id="LabelNom" for="name"></label>
+                            <label class="form-label en" id="LabelNomEn" for="name"></label>
                             <input type="text" class="form-control fr" id="nom" name="nom" placeholder="Votre nom" tabindex="1">
-                            <input type="text" class="form-control en" id="nom" name="nom" placeholder="Your name" tabindex="1">
+                            <input type="text" class="form-control en" id="nomEn" name="nomEn" placeholder="Your name" tabindex="1">
                         </div>
                         <div class="form-group">
-                            <label class="form-label" id="LabelEmail" for="email"></label>
+                            <label class="form-label fr" id="LabelEmail" for="email"></label>
+                            <label class="form-label en" id="LabelEmailEn" for="email"></label>
                             <input type="email" class="form-control fr" id="email" name="email" placeholder="Votre adresse email" tabindex="2">
-                            <input type="email" class="form-control en" id="email" name="email" placeholder="Your email address" tabindex="2">
+                            <input type="email" class="form-control en" id="emailEn" name="emailEn" placeholder="Your email address" tabindex="2">
                         </div>
                         <div class="form-group">
-                            <label class="form-label" id="LabelSujet" for="sublect"></label>
+                            <label class="form-label fr" id="LabelSujet" for="subject"></label>
+                            <label class="form-label en" id="LabelSujetEn" for="subject"></label>
                             <input type="text" class="form-control fr" id="sujet" name="sujet" placeholder="Sujet" tabindex="3">
-                            <input type="text" class="form-control en" id="sujet" name="sujet" placeholder="Subject" tabindex="3">
+                            <input type="text" class="form-control en" id="sujetEn" name="sujetEn" placeholder="Subject" tabindex="3">
                         </div>
                         <div class="form-group">
-                            <label class="form-label" id="LabelMessage" for="message"></label>
+                            <label class="form-label fr" id="LabelMessage" for="message"></label>
+                            <label class="form-label en" id="LabelMessageEn" for="message"></label>
                             <textarea rows="6" cols="60" name="message" class="form-control fr" id="message" placeholder="Votre message" tabindex="4"></textarea>
-                            <textarea rows="6" cols="60" name="message" class="form-control en" id="message" placeholder="Your message" tabindex="4"></textarea>                                  
+                            <textarea rows="6" cols="60" name="messageEn" class="form-control en" id="messageEn" placeholder="Your message" tabindex="4"></textarea>                                  
                         </div>
                         <div class="text-center margin-top-25">
-                            <button type="submit" class="btn btn-mod btn-border btn-large fr">Envoyer le message</button>
+                            <button id="validate" type="submit" class="btn btn-mod btn-border btn-large fr">Envoyer le message</button>
                             <button id="retour" class="btn btn-mod btn-border2 btn-large fr">Revenir aux projets</button>
                         <div class="text-center margin-top-25">
-                            <button type="submit" class="btn btn-mod btn-border btn-large en">Send message</button>
-                            <button id="retour2" class="btn btn-mod btn-border2 btn-large en">Back to the top</button>
+                            <button id="validateEn" type="submit" class="btn btn-mod btn-border btn-large en">Send message</button>
+                            <button id="retour2" class="btn btn-mod btn-border2 btn-large en">Back to projects</button>
                         </div>
                         </div>
                     </form>

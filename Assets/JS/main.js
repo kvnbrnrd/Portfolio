@@ -143,7 +143,7 @@ switchEn4.addEventListener('click', function(){
     })
     
 
-    TweenMax.from(".fond", 1, {
+    TweenMax.from("#fond", 1, {
         delay: 1.6,
         opacity: 0,
         y: 20,
@@ -205,6 +205,8 @@ function validateForm() {
         document.getElementById('nom').style.borderColor = "red";
         return false;
     }
+    
+
   
     if(email == "" || email == null ){
           document.getElementById('LabelEmail').innerHTML = ('Veuillez entrer votre email');
@@ -242,5 +244,71 @@ function validateForm() {
       
 }
 
- // ----------------------- Fin vérif formulaire contact côté utilisateur ----------------------------
+function validateFormEn() {
+  var nomEn = document.getElementById('nomEn').value;
+  var emailEn = document.getElementById('emailEn').value;
+  var sujetEn = document.getElementById('sujetEn').value;
+  var messageEn = document.getElementById('messageEn').value;
+  var onlyLettersEn =/^[a-zA-Z\s]*$/; 
+  var onlyEmailEn = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  
+  
+  if(nomEn == "" || nomEn == null){
+      document.getElementById('LabelNomEn').innerHTML = ('Please enter your name');
+      document.getElementById('nomEn').style.borderColor = "red";
+      return false;
+  }
+     
+
+  if (!nomEn.match(onlyLettersEn)) {
+      document.getElementById('LabelNomEn').innerHTML = ('Please only enter letters');
+      document.getElementById('nomEn').style.borderColor = "red";
+      return false;
+  }
+  
+
+
+  if(emailEn == "" || emailEn == null ){
+        document.getElementById('LabelEmailEn').innerHTML = ('Please enter your email address');
+        document.getElementById('emailEn').style.borderColor = "red";
+        return false;
+    }
+
+  if (!emailEn.match(onlyEmailEn)) {
+      document.getElementById('LabelEmailEn').innerHTML = ('Please enter a valid email address');
+      document.getElementById('emailEn').style.borderColor = "red";
+      return false;
+  }
+
+  if(sujetEn == "" || sujetEn == null ){
+        document.getElementById('LabelSujetEn').innerHTML = ('Please enter the subject of your message');
+        document.getElementById('sujetEn').style.borderColor = "red";
+        return false;
+    }
+
+  if (!sujetEn.match(onlyLettersEn)) {
+      document.getElementById('LabelSujetEn').innerHTML = ('Please only enter letters');
+      document.getElementById('sujetEn').style.borderColor = "red";
+      return false;
+  }
+
+  if(messageEn == "" || messageEn == null){
+      document.getElementById('LabelMessageEn').innerHTML = ('Please enter your message');
+      document.getElementById('messageEn').style.borderColor = "red";
+      return false;
+  }
+
+  else{
+        return true;
+    }
+    
+}
+
+let validate = document.getElementById('validate');
+validate.addEventListener("click", validateForm, false);
+
+let validateEn = document.getElementById('validateEn');
+validateEn.addEventListener("click", validateFormEn, false);
+
+// ----------------------- Fin vérif formulaire contact côté utilisateur ----------------------------
 
