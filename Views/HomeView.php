@@ -10,7 +10,6 @@
         <link rel="stylesheet" type="text/css" media="screen" href="Assets/CSS/main.css" />
     </head>
 <body>
-<div class="wrapper">
 <!-- ------------------------------- Début Page Home -------------------------------- -->
 
     <div class="container-fluid text-center home" id="home">
@@ -34,13 +33,15 @@
 
 <!-- ------------------------------- Début Projet 1 -------------------------------- -->
 
+<main>
+
     <div id="pageP">
-        <header>
+        <header id="header">
             <nav class="navbar navbar-expand navbar-dark bg-dark">
                 <div class="collapse navbar-collapse" id="navbarsExample02">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><img id="KB" src="Assets/Images/logoVk.png" alt="logo"></a>
+                            <a class="nav-link" href="#home"><img id="KB" src="Assets/Images/logoVk.png" alt="logo"></a>
                         </li>
                     </ul>
                     <ul class="navbar-nav my-2 my-md-0">
@@ -48,17 +49,17 @@
                             <a class="nav-link dropdown-toggle fr" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projets</a>
                             <a class="nav-link dropdown-toggle en" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
                             <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item" href="#">R&M Transfer</a>
-                                <a class="dropdown-item" href="#">Cancoillotte Gaumont</a>
+                                <a class="dropdown-item" href="#pageP">R&M Transfer</a>
+                                <a class="dropdown-item" href="#pageP2">Cancoillotte Gaumont</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fr" href="#">A Propos</a>
-                            <a class="nav-link en" href="#">About Me</a>
+                            <a class="nav-link fr" href="#aboutme">A Propos</a>
+                            <a class="nav-link en" href="#aboutme">About Me</a>
                             </li>
                         <li class="nav-item">
-                            <a class="nav-link fr" href="#">Contact</a>
-                            <a class="nav-link en" href="#">Contact</a>
+                            <a class="nav-link fr" href="#fond">Contact</a>
+                            <a class="nav-link en" href="#fond">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a id="switchEn" class="nav-link fr" href="#">English</a>
@@ -84,13 +85,6 @@
                     <div id="divimage" class="col-md-6">
                         <img id="imgprojet" src="Assets/Images/rickmail.png" alt="image Rick & Morty">
                     </div>
-                    <div id="mouse1" class="call1 animated pulse">
-                        <div class="scroll-downs">
-                            <div class="mousey">
-                                <div class="scroller"></div>
-                            </div>
-                        </div>
-                    </div> 
             </div> <!-- Fin  div row align-items-center -->
         </div> <!-- Fin div projet -->
     </div> <!-- Fin div PageP -->
@@ -102,40 +96,6 @@
 
 <!-- ------------------------------- Début Projet 2 -------------------------------- -->
     <div id="pageP2">
-        <header>
-            <nav class="navbar navbar-expand navbar-dark bg-dark">
-                <div class="collapse navbar-collapse" id="navbarsExample02">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><img id="KB" src="Assets/Images/logoVk.png" alt="logo"></a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav my-2 my-md-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fr" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projets</a>
-                            <a class="nav-link dropdown-toggle en" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item" href="#">R&M Transfer</a>
-                                <a class="dropdown-item" href="#">Cancoillotte Gaumont</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fr" href="#">A Propos</a>
-                            <a class="nav-link en" href="#">About Me</a>
-                            </li>
-                        <li class="nav-item">
-                            <a class="nav-link fr" href="#">Contact</a>
-                            <a class="nav-link en" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="switchEn2" class="nav-link fr" href="#">English</a>
-                            <a id="switchFr2" class="nav-link en" href="#">Français</a>
-                        </li>
-                    </ul>
-                </div> <!-- Fin div collapse -->
-            </nav>
-        </header>
-
         <div id="projet2" class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-6">
@@ -151,13 +111,6 @@
                     <div id="divimage" class="col-md-6">
                         <img id="imgprojet" src="Assets/Images/gaumont.png" alt="fiche film">
                     </div>
-                    <div id="mouse2" class="call animated pulse">
-                        <div class="scroll-downs">
-                            <div class="mousey">
-                                <div class="scroller"></div>
-                            </div>
-                        </div>
-                    </div> 
             </div> <!-- Fin  div row align-items-center -->
         </div> <!-- Fin div projet -->
     </div> <!-- Fin div PageP2 -->
@@ -176,40 +129,6 @@
 
 <!-- ------------------------------- Début A Propos -------------------------------- -->
     <div id="aboutme">
-        <header>
-            <nav class="navbar navbar-expand navbar-dark bg-dark">
-                <div class="collapse navbar-collapse" id="navbarsExample02">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><img id="KB" src="Assets/Images/logoVk.png" alt="logo"></a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav my-2 my-md-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fr" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projets</a>
-                            <a class="nav-link dropdown-toggle en" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item" href="#">R&M Transfer</a>
-                                <a class="dropdown-item" href="#">Cancoillotte Gaumont</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fr" href="#">A Propos</a>
-                            <a class="nav-link en" href="#">About Me</a>
-                            </li>
-                        <li class="nav-item">
-                            <a class="nav-link fr" href="#">Contact</a>
-                            <a class="nav-link en" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="switchEn3" class="nav-link fr" href="#">English</a>
-                            <a id="switchFr3" class="nav-link en" href="#">Français</a>
-                        </li>
-                    </ul>
-                </div> <!-- Fin div collapse -->
-            </nav>
-        </header>
-
         <div class="container box">
             <div class="row justify-content-center">
                 <h2 class="about txt fr">A PROPOS DE MOI</h2>
@@ -236,13 +155,6 @@
                 <a href="#"><img src="Assets/Images/rdgithub.png" alt="GitHub" class="col-4rd"></a>
                 <a href="#"><img src="Assets/Images/rdlinkedin.png" alt="Linkedin" class="col-4rd"></a>
             </div>
-            <div id="mouse3" class="call animated pulse">
-                        <div class="scroll-downs">
-                            <div class="mousey">
-                                <div class="scroller"></div>
-                            </div>
-                        </div>
-                    </div> 
         </div> <!-- Fin div container box -->
     </div> <!-- Fin div aboutme -->
 
@@ -253,40 +165,6 @@
 
 <!-- ------------------------------- Début Contact -------------------------------- -->
     <div id="fond">
-        <header>
-            <nav class="navbar navbar-expand navbar-dark bg-dark">
-                <div class="collapse navbar-collapse" id="navbarsExample02">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"><img id="KB" src="Assets/Images/logoVk.png" alt="logo"></a>
-                        </li>
-                    </ul>
-                    <ul class="navbar-nav my-2 my-md-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle fr" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projets</a>
-                            <a class="nav-link dropdown-toggle en" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item" href="#">R&M Transfer</a>
-                                <a class="dropdown-item" href="#">Cancoillotte Gaumont</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fr" href="#">A Propos</a>
-                            <a class="nav-link en" href="#">About Me</a>
-                            </li>
-                        <li class="nav-item">
-                            <a class="nav-link fr" href="#">Contact</a>
-                            <a class="nav-link en" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="switchEn4" class="nav-link fr" href="#">English</a>
-                            <a id="switchFr4" class="nav-link en" href="#">Français</a>
-                        </li>
-                    </ul>
-                </div> <!-- Fin div collapse -->
-            </nav>
-        </header>
-
         <div class="container" id="contact">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -335,8 +213,7 @@
 
     
 <!-- ------------------------------- Fin Contact -------------------------------- -->
-
-</div>
+</main>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>

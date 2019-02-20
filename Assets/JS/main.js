@@ -1,12 +1,5 @@
 var switchFr = document.getElementById('switchFr');
 var switchEn = document.getElementById('switchEn');
-var switchFr2 = document.getElementById('switchFr2');
-var switchEn2 = document.getElementById('switchEn2');
-var switchFr3 = document.getElementById('switchFr3');
-var switchEn3 = document.getElementById('switchEn3');
-var switchFr4 = document.getElementById('switchFr4');
-var switchEn4 = document.getElementById('switchEn4');
-
 var FrItems = document.getElementsByClassName('fr');
 var EnItems = document.getElementsByClassName('en');
 
@@ -35,27 +28,6 @@ switchEn.addEventListener('click', function(){
     switchLang(FrItems, EnItems);
 });
 
-switchFr2.addEventListener('click', function(){
-  switchLang(EnItems, FrItems);
-});
-switchEn2.addEventListener('click', function(){
-  switchLang(FrItems, EnItems);
-});
-
-switchFr3.addEventListener('click', function(){
-  switchLang(EnItems, FrItems);
-});
-switchEn3.addEventListener('click', function(){
-  switchLang(FrItems, EnItems);
-});
-
-switchFr4.addEventListener('click', function(){
-  switchLang(EnItems, FrItems);
-});
-switchEn4.addEventListener('click', function(){
-  switchLang(FrItems, EnItems);
-});
-
 
 // Si bug, vérifier qu'il y a bien le même nombre d'éléments en et fr 
 
@@ -74,115 +46,47 @@ switchEn4.addEventListener('click', function(){
 
   function animationHome() {
 
-    TweenMax.to(".wrapper", 2, {
+    TweenMax.to(".kev", 2, {
+        opacity : 0,
+        y: -60,
+        ease: Expo.easeInOut
+    })
+
+    TweenMax.to(".pres", 2, {
+        opacity : 0,
+        y: -60,
+        ease: Expo.easeInOut
+    })
+
+    TweenMax.to("#home", 2, {
         delay: 0.3,
-        top: "-100%",
-        ease: Expo.easeInOut
-    })
-    
-    TweenMax.from("header", 1, {
-        delay: 1.3,
-        opacity: 0,
-        y: 20,
-        ease: Expo.easeInOut
-    })
-
-    TweenMax.from("#projet", 1, {
-        delay: 1.6,
-        opacity: 0,
-        y: 20,
-        ease: Expo.easeInOut
-    })
-
-
-  }
-
-  function animationProjet() {
-
-    TweenMax.to(".wrapper", 2, {
-        delay: 0.3,
-        top: "-200%",
-        ease: Expo.easeInOut
-    })
-    
-    TweenMax.from("#pageP2", 1, {
-        delay: 1.6,
-        opacity: 0,
-        y: 20,
-        ease: Expo.easeInOut
-    })
-
-    
-
-  }
-
-  function animationProjet2() {
-
-    TweenMax.to(".wrapper", 2, {
-        delay: 0.3,
-        top: "-300%",
-        ease: Expo.easeInOut
-    })
-    
-
-    TweenMax.from("#aboutme", 1, {
-        delay: 1.6,
-        opacity: 0,
-        y: 20,
+        top : "-100%",
         ease: Expo.easeInOut
     })
 
   }
 
-  function animationAbout() {
+  function OverflowHeader() {
+    document.body.style.overflow = "visible";
+    document.getElementById('header').style.display = "block";
+    document.getElementById('header').style.position = "fixed";
+    document.getElementById('header').style.top = "0%";
+    document.getElementById('header').style.width = "100%";
+    document.getElementById('header').style.zIndex = "1";
+}
 
-    TweenMax.to(".wrapper", 2, {
-        delay: 0.3,
-        top: "-400%",
-        ease: Expo.easeInOut
-    })
-    
 
-    TweenMax.from("#fond", 1, {
-        delay: 1.6,
-        opacity: 0,
-        y: 20,
-        ease: Expo.easeInOut
-    })
 
-  }
-
-  function animationContact() {
-
-    TweenMax.to(".wrapper", 2, {
-        delay: 0.3,
-        top: "-100%",
-        ease: Power4.easeOut
-    })
-    
-
-  }
-
-  let home = document.getElementById('mouse');
-  home.addEventListener("click", animationHome, false);
-
-  let projet = document.getElementById('mouse1');
-  projet.addEventListener("click", animationProjet, false);
-
-  let projet2 = document.getElementById('mouse2');
-  projet2.addEventListener("click", animationProjet2, false);
-
-  let about = document.getElementById('mouse3');
-  about.addEventListener("click", animationAbout, false);
-
-  let contact = document.getElementById('retour');
-  contact.addEventListener("click", animationContact, false);
-
-  let contact2 = document.getElementById('retour2');
-  contact2.addEventListener("click", animationContact, false);
-
+  var home = document.getElementById('mouse');
+  home.addEventListener("click", () => { 
+      animationHome();
+      OverflowHeader();
+    }, false);
 
   // ----------------------- Fin animations pages ----------------------------
+
+
+  // ----------------------- Fin ancres ----------------------------
 
 function validateForm() {
     var nom = document.getElementById('nom').value;
@@ -311,4 +215,6 @@ let validateEn = document.getElementById('validateEn');
 validateEn.addEventListener("click", validateFormEn, false);
 
 // ----------------------- Fin vérif formulaire contact côté utilisateur ----------------------------
+
+
 
