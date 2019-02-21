@@ -76,27 +76,9 @@ function animationHome() {
         animationHomeInstant();
     }
   });
+
+// Bug à résoudre : si l'utilisateur continue de scroller, l'animation reprend au début/freeze
  
-//  document.addEventListener("wheel", () => { 
-//       animationHome();
-//       OverflowHeader();
-//     }, false);
-
-
-//   window.addEventListener('wheel', function(e) {
-//     if (e.deltaY < 0) {
-//       console.log('scrolling up');
-//     }
-//     if (e.deltaY > 0) {
-//       console.log('scrolling down');
-//     }
-//   });
- 
-//  document.addEventListener("wheel", () => { 
-//       animationHome();
-//       OverflowHeader();
-//     }, false);
-
     
       // ----------------------- Fin animations pages ----------------------------
 
@@ -135,6 +117,37 @@ switchEn.addEventListener('click', function(){
 
 // ----------------------- Fin fonction changement de langue ----------------------------
 
+$(document).ready(function() {
+  
+    var scrollLink = $('.scroll');
+    
+    // Smooth scrolling
+    scrollLink.click(function(e) {
+      e.preventDefault();
+      $('body,html').animate({
+        scrollTop: $(this.hash).offset().top
+      }, 1000 );
+    });
+    
+    // Active link switching
+    $(window).scroll(function() {
+      var scrollbarLocation = $(this).scrollTop();
+      
+      scrollLink.each(function() {
+        
+        var sectionOffset = $(this.hash).offset().top - 20;
+        
+        if ( sectionOffset <= scrollbarLocation ) {
+          $(this).parent('').addClass('active');
+          $(this).parent('').siblings('').removeClass('active');
+        }
+      })
+      
+    })
+    
+  })
+
+// Bug à résoudre : le dropdown projet ne reprend pas la classe active
 
   // ----------------------- Fin ancres ----------------------------
 

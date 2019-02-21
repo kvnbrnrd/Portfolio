@@ -12,7 +12,7 @@
 <body>
 <!-- ------------------------------- Début Page Home -------------------------------- -->
 
-    <div class="container-fluid text-center home" id="home">
+    <section class="container-fluid text-center home" id="home">
         <h1 class="kev">KEVARD BERNIN</h1>
         <p class="pres">Donec condimentum massa eget eros scelerisque,<br> non sollicitudin lectus malesuada.<br> Duis consequat tortor in luctus scelerisque.<br> Nam sit amet tincidunt mauris.<br> Maecenas vehicula volutpat turpis sed dapibus.</p>
         
@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div> 
-    </div> 
+</section> 
 
 <!-- ------------------------------- Fin Page Home -------------------------------- -->
 
@@ -34,7 +34,7 @@
 
 <main>
 
-    <div id="pageP">
+    <section id="pageP">
         <header id="header">
             <nav class="navbar navbar-expand navbar-dark bg-dark">
                 <div class="collapse navbar-collapse" id="navbarsExample02">
@@ -44,25 +44,25 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav my-2 my-md-0">
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown active">
                             <a class="nav-link dropdown-toggle fr" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projets</a>
                             <a class="nav-link dropdown-toggle en" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
                             <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                <a class="dropdown-item" href="#pageP">R&M Transfer</a>
-                                <a class="dropdown-item" href="#pageP2">Cancoillotte Gaumont</a>
+                                <a class="dropdown-item scroll" href="#pageP">R&M Transfer</a>
+                                <a class="dropdown-item scroll" href="#pageP2">Cancoillotte Gaumont</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link fr" href="#aboutme">A Propos</a>
-                            <a class="nav-link en" href="#aboutme">About Me</a>
+                            <a class="nav-link scroll fr" href="#aboutme">A Propos</a>
+                            <a class="nav-link scroll en" href="#aboutme">About Me</a>
                             </li>
                         <li class="nav-item">
-                            <a class="nav-link fr" href="#fond">Contact</a>
-                            <a class="nav-link en" href="#fond">Contact</a>
+                            <a class="nav-link scroll fr" href="#fond">Contact</a>
+                            <a class="nav-link scroll en" href="#fond">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a id="switchEn" class="nav-link fr" href="#">English</a>
-                            <a id="switchFr" class="nav-link en" href="#">Français</a>
+                            <a id="switchEn" class="nav-link scroll fr" href="#">English</a>
+                            <a id="switchFr" class="nav-link scroll en" href="#">Français</a>
                         </li>
                     </ul>
                 </div> <!-- Fin div collapse -->
@@ -86,7 +86,7 @@
                     </div>
             </div> <!-- Fin  div row align-items-center -->
         </div> <!-- Fin div projet -->
-    </div> <!-- Fin div PageP -->
+</section> <!-- Fin div PageP -->
 
     
 <!-- ------------------------------- Fin Projet 1 -------------------------------- -->
@@ -94,7 +94,7 @@
 
 
 <!-- ------------------------------- Début Projet 2 -------------------------------- -->
-    <div id="pageP2">
+    <section id="pageP2">
         <div id="projet2" class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-md-6">
@@ -112,7 +112,7 @@
                     </div>
             </div> <!-- Fin  div row align-items-center -->
         </div> <!-- Fin div projet -->
-    </div> <!-- Fin div PageP2 -->
+</section> <!-- Fin div PageP2 -->
     
 <!-- ------------------------------- Fin Projet 2 -------------------------------- -->
 
@@ -127,7 +127,7 @@
 
 
 <!-- ------------------------------- Début A Propos -------------------------------- -->
-    <div id="aboutme">
+    <section id="aboutme">
         <div class="container box">
             <div class="row justify-content-center">
                 <h2 class="about txt fr">A PROPOS DE MOI</h2>
@@ -155,7 +155,7 @@
                 <a href="#"><img src="Assets/Images/rdlinkedin.png" alt="Linkedin" class="col-4rd"></a>
             </div>
         </div> <!-- Fin div container box -->
-    </div> <!-- Fin div aboutme -->
+</section> <!-- Fin div aboutme -->
 
     
 <!-- ------------------------------- Fin A Propos -------------------------------- -->
@@ -163,7 +163,7 @@
 
 
 <!-- ------------------------------- Début Contact -------------------------------- -->
-    <div id="fond">
+    <section id="fond">
         <div class="container" id="contact">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -205,13 +205,13 @@
                 </div> <!-- Fin div col-xs-12 col-sm-12 col-md-12 col-lg-12 -->
             </div> <!-- Fin div row -->
         </div> <!-- Fin div container -->
-    </div> <!-- Fin div fond -->
+</section> <!-- Fin div fond -->
 
 
     
 <!-- ------------------------------- Fin Contact -------------------------------- -->
 </main>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
