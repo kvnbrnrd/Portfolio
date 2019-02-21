@@ -1,3 +1,105 @@
+document.addEventListener("DOMContentLoaded", function(event) {
+    document.body.style.overflow = "hidden";
+  });
+
+
+  function OverflowHeader() {
+
+    document.body.style.overflow = "auto";
+    document.getElementById('header').style.display = "block";
+    document.getElementById('header').style.position = "fixed";
+    document.getElementById('header').style.top = "0%";
+    document.getElementById('header').style.width = "100%";
+    document.getElementById('header').style.zIndex = "1";
+}
+
+function animationHomeInstant() {
+
+    TweenMax.to(".kev", 2, {
+        opacity : 0,
+        y: -60,
+        ease: Expo.easeInOut
+    })
+
+    TweenMax.to(".pres", 2, {
+        opacity : 0,
+        y: -60,
+        ease: Expo.easeInOut
+    })
+
+    TweenMax.to("#home", 2, {
+        top : "-100%",
+        ease: Expo.easeInOut,
+    })
+
+  }
+
+function animationHome() {
+
+    TweenMax.to(".kev", 2, {
+        opacity : 0,
+        y: -60,
+        ease: Expo.easeInOut
+    })
+
+    TweenMax.to(".pres", 2, {
+        opacity : 0,
+        y: -60,
+        ease: Expo.easeInOut
+    })
+
+    TweenMax.to("#home", 2, {
+        delay: 0.3,
+        top : "-100%",
+        ease: Expo.easeInOut,
+        onComplete: function() {
+            document.body.style.overflow = "auto";
+            document.getElementById('header').style.display = "block";
+            document.getElementById('header').style.position = "fixed";
+            document.getElementById('header').style.top = "0%";
+            document.getElementById('header').style.width = "100%";
+            document.getElementById('header').style.zIndex = "1";
+        }
+    })
+
+  }
+
+
+  window.addEventListener('wheel', function(e) {
+    if (e.deltaY > 0 && window.scrollY <= 0 ) {
+        animationHome();
+    }
+
+    else if (e.deltaY > 0 || e.deltaY < 0 )
+    {
+        OverflowHeader();
+        animationHomeInstant();
+    }
+  });
+ 
+//  document.addEventListener("wheel", () => { 
+//       animationHome();
+//       OverflowHeader();
+//     }, false);
+
+
+//   window.addEventListener('wheel', function(e) {
+//     if (e.deltaY < 0) {
+//       console.log('scrolling up');
+//     }
+//     if (e.deltaY > 0) {
+//       console.log('scrolling down');
+//     }
+//   });
+ 
+//  document.addEventListener("wheel", () => { 
+//       animationHome();
+//       OverflowHeader();
+//     }, false);
+
+    
+      // ----------------------- Fin animations pages ----------------------------
+
 var switchFr = document.getElementById('switchFr');
 var switchEn = document.getElementById('switchEn');
 var FrItems = document.getElementsByClassName('fr');
@@ -32,58 +134,6 @@ switchEn.addEventListener('click', function(){
 // Si bug, vérifier qu'il y a bien le même nombre d'éléments en et fr 
 
 // ----------------------- Fin fonction changement de langue ----------------------------
-
-
-
-// window.addEventListener('wheel', function(e) {
-//     if (e.deltaY < 0) {
-//       console.log('scrolling up');
-//     }
-//     if (e.deltaY > 0) {
-//       console.log('scrolling down');
-//     }
-//   });
-
-  function animationHome() {
-
-    TweenMax.to(".kev", 2, {
-        opacity : 0,
-        y: -60,
-        ease: Expo.easeInOut
-    })
-
-    TweenMax.to(".pres", 2, {
-        opacity : 0,
-        y: -60,
-        ease: Expo.easeInOut
-    })
-
-    TweenMax.to("#home", 2, {
-        delay: 0.3,
-        top : "-100%",
-        ease: Expo.easeInOut
-    })
-
-  }
-
-  function OverflowHeader() {
-    document.body.style.overflow = "visible";
-    document.getElementById('header').style.display = "block";
-    document.getElementById('header').style.position = "fixed";
-    document.getElementById('header').style.top = "0%";
-    document.getElementById('header').style.width = "100%";
-    document.getElementById('header').style.zIndex = "1";
-}
-
-
-
-  var home = document.getElementById('mouse');
-  home.addEventListener("click", () => { 
-      animationHome();
-      OverflowHeader();
-    }, false);
-
-  // ----------------------- Fin animations pages ----------------------------
 
 
   // ----------------------- Fin ancres ----------------------------
