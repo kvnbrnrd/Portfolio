@@ -55,7 +55,7 @@ img {
 
 	html, body {
 		height: 100vh;
-		width: 100vw;
+		width: 100%;
 	}
 	
 
@@ -82,7 +82,7 @@ img {
 	#pageP2
 	{
 		height: 100vh;
-		background-color: #D5D7D8;
+		background-color: rgb(233, 233, 233);
 	}
 
 	#aboutme
@@ -249,7 +249,7 @@ img {
 	.home
 	{
 		position: relative;
-		max-width: 100vw;
+		max-width: 100%;
 		min-height: 100vh;
 		background-image: url('../Images/key.png');
 	}
@@ -353,7 +353,7 @@ img {
 
  #projet
   { 
-	 min-width: 100vw;
+	 min-width: 100%;
 	 min-height: 100vh;
  }
 
@@ -367,7 +367,6 @@ img {
  {
 	font-size: 5rem;
 	font-family: 'orkney', 'Times New Roman', Times, serif; 
-	margin-top: -20rem;
 	padding-bottom: 3rem;
 	
  }
@@ -405,10 +404,7 @@ img {
 	 padding-right: 5rem;
  }
 
- #divimage
- {
-	 margin-top: -20rem;
- }
+
 
  /* ******************************* Fin PROJEEEEEEEEEET  ******************************************** */
 
@@ -437,12 +433,11 @@ img {
 	padding-bottom: 5rem;
  }
 
- .justify-content-around
- {
-	 height: 100vh;
-	 padding-top: 5rem;
- }
 
+ .CV 
+ {
+	 padding-bottom: 5rem;
+ }
 
  
 
@@ -467,14 +462,14 @@ img {
 
   #fond
   {
-	  height: 100vh;
-	  width: 100vw;
+	  height: 100%;
+	  width: 100%;
 	  background-image: url('../Images/phonebooth.jpg');
 	  background-repeat: no-repeat;
   }
 
   .col-xs-12.col-sm-12.col-md-12.col-lg-12 {
-	padding: 10% 20% 10% 20%;
+	padding: 10% 20% 0% 20%;
   }
   
   .call2
@@ -651,12 +646,6 @@ img {
 		left: 50%;
 		margin-left: -140px;
 		width: 280px;
-	}
-
-	.ArrowDown
-	{
-		width: 50px;
-		height: 50px;
 	}
 
 /* ******************************* Fin Home ******************************************** */
