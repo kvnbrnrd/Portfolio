@@ -146,8 +146,8 @@
                 </p>
             </div>
             <div class="text-center margin-top-25 CV">
-                <button type="submit" class="btn btn-mod btn-border btn-large fr">Voir mon CV</button>
-                <button type="submit" class="btn btn-mod btn-border btn-large en">See my resume</button>
+                <button type="submit" class="btn btn-mod btn-border1 btn-large fr">Voir mon CV</button>
+                <button type="submit" class="btn btn-mod btn-border1 btn-large en">See my resume</button>
             </div>
             <div class="row justify-content-around">
                 <a href="#"><img src="Assets/Images/rdflickr.png" alt="Flickr" class="col-4rd"></a>
@@ -196,10 +196,8 @@
                         </div>
                         <div class="text-center margin-top-25">
                             <button id="validate" type="submit" class="btn btn-mod btn-border btn-large fr">Envoyer le message</button>
-                            <button id="retour" class="btn btn-mod btn-border2 btn-large fr">Revenir aux projets</button>
                         <div class="text-center margin-top-25">
                             <button id="validateEn" type="submit" class="btn btn-mod btn-border btn-large en">Send message</button>
-                            <button id="retour2" class="btn btn-mod btn-border2 btn-large en">Back to projects</button>
                         </div>
                         </div>
                     </form>

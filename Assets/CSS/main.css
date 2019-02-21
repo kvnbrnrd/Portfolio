@@ -292,42 +292,6 @@ img {
 		color: #ececec;
 	}
 
-	.scroll-downs {
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		margin : auto;
-		
-		width: 34px;
-		height: 55px;
-	  }
-	  .mousey {
-		width: 3px;
-		padding: 10px 15px;
-		height: 35px;
-		border: 2px solid #fff;
-		border-radius: 25px;
-		opacity: 0.75;
-		box-sizing: content-box;
-	  }
-	  .scroller {
-		width: 3px;
-		height: 10px;
-		border-radius: 25%;
-		background-color: #fff;
-		/* animation-name: scroll;
-		animation-delay: 3s;
-		animation-duration: 2.2s;
-		animation-timing-function: cubic-bezier(.15,.41,.69,.94);
-		animation-iteration-count: infinite; */
-	  }
-	  @keyframes scroll {
-		0% { opacity: 0; }
-		10% { transform: translateY(0); opacity: 1; }
-		100% { transform: translateY(15px); opacity: 0;}
-	  }
 
 /* ******************************* Fin Home ******************************************** */
 
@@ -422,6 +386,7 @@ img {
 	font-size: 5.5rem;
 	font-family: 'orkney', 'Times New Roman', Times, serif; 
 	margin-top: 8rem;
+	color: white;
  }
 
 
@@ -431,6 +396,7 @@ img {
 	font-family: 'karla', 'Times New Roman', Times, serif;
 	margin-top: 6rem;
 	padding-bottom: 5rem;
+	color: white;
  }
 
 
@@ -530,11 +496,13 @@ img {
 	  margin-bottom: 2.5rem;
   }
 
-  .btn-mod.btn-border2 {
-	color: #000000;
+  .btn-mod.btn-border1 {
+	color: white;
+	border: 1px solid white;
 	background: transparent;
 	margin-bottom: 2.5rem;
 }
+
   
   .btn-mod, a.btn-mod {
 	  -webkit-box-sizing: border-box;
@@ -563,7 +531,7 @@ img {
 	  transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
   }
   
-  .btn-mod.btn-border:hover, .btn-mod.btn-border2:hover, .btn-mod.btn-border:active, .btn-mod.btn-border2:active, .btn-mod.btn-border:focus, .btn-mod.btn-border2:focus, .btn-mod.btn-border:active:focus, .btn-mod.btn-border2:active:focus {
+  .btn-mod.btn-border:hover,.btn-mod.btn-border1:hover, .btn-mod.btn-border:active, .btn-mod.btn-border1:active, .btn-mod.btn-border:focus, .btn-mod.btn-border2:focus, .btn-mod.btn-border:active:focus, .btn-mod.btn-border1:active:focus {
 	  color: #fff;
 	  border-color: #000;
 	  background: #000;
@@ -592,23 +560,34 @@ img {
 		left: 0;
 		margin : auto;
 		
-		width: 21px;
-		height: 35px;
+		width: 34px;
+		height: 55px;
 	  }
 	  .mousey {
 		width: 3px;
-		padding: 5px 10px;
-		height: 21px;
+		padding: 10px 15px;
+		height: 35px;
 		border: 2px solid #fff;
 		border-radius: 25px;
 		opacity: 0.75;
 		box-sizing: content-box;
 	  }
-	  .scroller {
-		width: 3px;
-		height: 10px;
-		border-radius: 25%;
-		background-color: #fff;
+	  .scroller
+	  {
+		  width: 3px;
+		  height: 10px;
+		  border-radius: 25%;
+		  background-color: #fff;
+		  animation-name: scroll;
+		  animation-delay: 2s;
+		  animation-duration: 2.2s;
+		  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+		  animation-iteration-count: infinite;
+		  }
+		  @keyframes scroll {
+		  0% { opacity: 0; }
+		  10% { transform: translateY(0px); opacity: 1; }
+		  100% { transform: translateY(15px); opacity: 0;}
 	  }
 
 /* ******************************* Fin Animations scroll ******************************************** */
@@ -687,7 +666,7 @@ img {
 
 	.align-items-center
 	{
-	min-width: 100vw;
+	min-width: 100%;
 	min-height: 100vh; 
 	margin-left: 0rem;
 	}
@@ -696,7 +675,7 @@ img {
 	{
 	font-size: 3.5rem;
 	font-family: 'orkney', 'Times New Roman', Times, serif; 
-	margin-top: -9rem;
+	margin-top: 6rem;
 	padding-bottom: 2rem;
 	
 	}
@@ -740,7 +719,8 @@ img {
 {
    font-size: 3rem;
    font-family: 'orkney', 'Times New Roman', Times, serif; 
-   margin-top: 4rem;
+   margin-top: 8rem;
+   color: white;
 }
 
 .apropos
@@ -751,6 +731,7 @@ img {
    padding-bottom: 4rem;
    margin-left: 2rem;
    margin-right: 2rem;
+   color: white;
 }
 
 .justify-content-around
@@ -768,6 +749,11 @@ img {
 
 /* ******************************* Fin A Propos ******************************************** */
 
+	#fond
+	{
+		background-image: url('../Images/mobilephonebooth.jpg');
+	}
+
 	.col-xs-12.col-sm-12.col-md-12.col-lg-12 
 	{
 		padding: 0% 0% 0% 0%;
@@ -775,12 +761,18 @@ img {
 
 	form 
 	{
+		opacity: 0.7;
 		height: 100vh;
 	}
 
+	.form-title
+	{
+		margin-top: 7rem;
+	}
+
 	.form-group .form-control {
-		padding: 1.7rem;
-		font-size: 1.5rem;
+		padding: 2rem;
+		font-size: 1.7rem;
 	  }
 
 	  .btn-mod.btn-large {
@@ -789,19 +781,13 @@ img {
 		font-size: 1.2rem;
 	}
 	
-	.btn-mod.btn-border {
-		color: #000000;
-		border: 1px solid #000000;
+	.btn-mod.btn-border1 {
+		color: white;
+		border: 1px solid white;
 		background: transparent;
 		margin-bottom: 1.5rem;
 	}
   
-	.btn-mod.btn-border2 {
-	  color: #000000;
-	  background: transparent;
-	  margin-bottom: 1.5rem;
-  }
-
 /* ******************************* Fin Contact ******************************************** */
    
    
