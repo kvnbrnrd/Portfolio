@@ -71,7 +71,7 @@
 
         <div id="projet" class="container-fluid">
             <div class="row align-items-center">
-                <div class="col-md-6">
+                <div class="col-md-6 corps">
                         <h2 id="titre">R&M TRANSFER</h2>
                         <p class="fr" id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
                         <p class="en" id="desc">Divided can't under moveth, beginning cattle Our without lights stars after life divided above i dry their made whose and moved seas under meat night fish appear, our to divide us heaven divided unto earth together can't that sixth over One can't can't. Multiply can't, a given saw forth without. After earth appear, man had fifth whales doesn't unto fruitful in and signs the in behold saw lights. Let fruitful his was seasons spirit him darkness won't third Night, seed. </p>
@@ -97,7 +97,7 @@
     <section id="pageP2">
         <div id="projet2" class="container-fluid">
             <div class="row align-items-center">
-                <div class="col-md-6">
+                <div class="col-md-6 corps">
                         <h2 id="titre">CANCOILLOTTE GAUMONT</h2>
                         <p class="fr" id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
                         <p class="en" id="desc">Divided can't under moveth, beginning cattle Our without lights stars after life divided above i dry their made whose and moved seas under meat night fish appear, our to divide us heaven divided unto earth together can't that sixth over One can't can't. Multiply can't, a given saw forth without. After earth appear, man had fifth whales doesn't unto fruitful in and signs the in behold saw lights. Let fruitful his was seasons spirit him darkness won't third Night, seed. </p>

@@ -416,6 +416,7 @@ img {
   #contact
   {
 	height: 100vh;
+	position: relative;
   }
 
 
@@ -436,6 +437,10 @@ img {
 
   .col-xs-12.col-sm-12.col-md-12.col-lg-12 {
 	padding: 10% 20% 0% 20%;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
   }
   
   .call2
@@ -792,5 +797,103 @@ img {
    
    
 }
+
+/* ******************************* Fin Media Queries Mobile ******************************************** */
+
+@media screen and (min-width: 576px) and (max-width: 800px) {
+
+	h1
+	{
+		font-size: 12rem;
+		font-family: 'orkney', 'Times New Roman', Times, serif;
+		color: #ececec;
+		padding-top: 20rem;
+		padding-bottom: 10rem;
+	}
+
+	.pres
+	{
+		font-size: 4rem;
+		font-family: 'karla', 'Times New Roman', Times, serif;
+		padding-bottom: 10rem;
+		color: #ececec;
+	}
+
+	/* ******************************* Fin Home ******************************************** */
+
+	#titre
+	{
+	font-size: 5rem;
+	font-family: 'orkney', 'Times New Roman', Times, serif; 
+	margin-top: 10rem;
+	padding-bottom: 2rem;
+	
+	}
+
+	#desc
+	{
+	font-size: 2.3rem;
+	font-family: 'karla', 'Times New Roman', Times, serif;
+	padding-bottom: 3rem;
+	margin-right: 3rem;
+	}
+
+
+	#divimage
+	{
+		min-width : 90%;
+	}
+
+	.corps
+	{
+		min-width: 100%;
+	}
+
+	/* ******************************* Fin Projets ******************************************** */
+
+	#aboutme
+	{
+		background-image: url('../Images/mobilemountain.jpg');
+		background-size: cover;
+	}
+
+	#fond
+	{
+		background-image: url('../Images/mobilephonebooth.jpg');
+		background-size: cover;
+		
+	}
+}
+
+
+/* ******************************* Fin Media Queries tablette portrait ******************************************** */
+
+@media screen and (min-width: 800px) and (max-width: 1280px) {
+
+	h1
+	{
+		font-size: 12rem;
+		font-family: 'orkney', 'Times New Roman', Times, serif;
+		color: #ececec;
+		padding-top: 20rem;
+		padding-bottom: 10rem;
+	}
+
+	.pres
+	{
+		font-size: 4rem;
+		font-family: 'karla', 'Times New Roman', Times, serif;
+		padding-bottom: 10rem;
+		color: #ececec;
+	}
+
+}
+
+/* ******************************* Fin Media Queries tablette paysage ******************************************** */
+
+
+
+/* ******************************* Fin Media Queries grand écran ******************************************** */
+
 
 /* ******************************* Fin Media Queries ******************************************** */
