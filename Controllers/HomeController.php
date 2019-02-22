@@ -1,6 +1,6 @@
 <?php
-include('Models/homeModel.php');
+include('Models/HomeModel.php');
 
 
 
-include('Views/homeView.php');
+include('Views/HomeView.php');
