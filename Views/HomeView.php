@@ -167,7 +167,7 @@
         <div class="container" id="contact">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <form id="contact-form" name="myForm" class="form" action="#" onsubmit="return validateForm()" method="POST" role="form">
+                    <!-- <form id="contact-form" name="myForm" class="form" action="Envoi.php" onsubmit="return validateForm()" method="POST" role="form">
                         <h2 class="form-title text-center fr">Contactez-moi</h2>
                         <h2 class="form-title text-center en">Contact Me</h2>
                         <div class="form-group">
@@ -200,7 +200,53 @@
                             <button id="validateEn" type="submit" class="btn btn-mod btn-border btn-large en">Send message</button>
                         </div>
                         </div>
+                    </form> -->
+                    <form id="contact-form" name="myForm" class="form fr" action="Envoi.php" onsubmit="return validateForm()" method="POST" role="form">
+                        <h2 class="form-title text-center">Contactez-moi</h2>
+                        <div class="form-group">
+                            <label class="form-label" id="LabelNom" for="name"></label>
+                            <input type="text" class="form-control" id="nom" name="nom" placeholder="Votre nom" tabindex="1">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" id="LabelEmail" for="email"></label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Votre adresse email" tabindex="2">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" id="LabelSujet" for="subject"></label>
+                            <input type="text" class="form-control" id="sujet" name="sujet" placeholder="Sujet" tabindex="3">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" id="LabelMessage" for="message"></label>
+                            <textarea rows="6" cols="60" name="message" class="form-control" id="message" placeholder="Votre message" tabindex="4"></textarea>                                
+                        </div>
+                        <div class="text-center margin-top-25">
+                            <button id="validate" type="submit" class="btn btn-mod btn-border btn-large">Envoyer le message</button>
+                        </div>
                     </form>
+
+                    <form id="contact-formEn" name="myFormEn" class="form en" action="Envoi.php" onsubmit="return validateFormEn()" method="POST" role="form">
+                        <h2 class="form-title text-center">Contact Me</h2>
+                        <div class="form-group">
+                            <label class="form-label" id="LabelNomEn" for="name"></label>
+                            <input type="text" class="form-control" id="nomEn" name="nomEn" placeholder="Your name" tabindex="1">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" id="LabelEmailEn" for="email"></label>
+                            <input type="email" class="form-control" id="emailEn" name="emailEn" placeholder="Your email address" tabindex="2">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" id="LabelSujetEn" for="subject"></label>
+                            <input type="text" class="form-control" id="sujetEn" name="sujetEn" placeholder="Subject" tabindex="3">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label" id="LabelMessageEn" for="message"></label>
+                            <textarea rows="6" cols="60" name="messageEn" class="form-control" id="messageEn" placeholder="Your message" tabindex="4"></textarea>                                  
+                        </div>
+                        <div class="text-center margin-top-25">
+                            <button id="validateEn" type="submit" class="btn btn-mod btn-border btn-large">Send message</button>
+                        </div>
+                    </form>
+
                     </div>  
                 </div> <!-- Fin div col-xs-12 col-sm-12 col-md-12 col-lg-12 -->
             </div> <!-- Fin div row -->

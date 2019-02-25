@@ -7,6 +7,7 @@ else {
     $page = 'home';
 }
 
+
 $page = ucfirst($page);
 
 include('Controllers/'.$page.'Controller.php');
