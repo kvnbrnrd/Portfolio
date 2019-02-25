@@ -97,10 +97,10 @@ $message.= $passage_ligne."--".$boundary."--".$passage_ligne;
 $envoi = mail($email_destinataire,$sujet,$message,$header);
 
        if($envoi){
-           echo 'Your message has been sent.';
+           echo 'Votre message a été envoyé.';
        }
         else {
-            echo 'Due to an error, your message has not been sent.';
+            echo 'Cet envoi de message est un échec.';
         }
 
 }
