@@ -156,7 +156,7 @@ function validateForm() {
     var email = document.getElementById('email').value;
     var sujet = document.getElementById('sujet').value;
     var message = document.getElementById('message').value;
-    var onlyLetters =/^[a-zA-Z\s]*$/; 
+    var onlyLetters =/^[a-zA-Z\s]*$/; //Bug à corriger : Cette regex ne permet ni majuscules, ni accents, ni chiffres.
     var onlyEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     
     

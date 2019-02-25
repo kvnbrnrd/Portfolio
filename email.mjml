@@ -1,0 +1,43 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all padding="0px"></mj-all>
+      <mj-class name="preheader" color="#000000" font-size="11px" font-family="Ubuntu, Helvetica, Arial, sans-serif" padding="0px"></mj-class>
+    </mj-attributes>
+    <mj-style inline="inline">a { text-decoration: none; color: inherit; }</mj-style>
+  </mj-head>
+  <mj-body background-color="#e0f2ff">
+    <mj-section background-color="#2a5cab" padding="10px 0">
+      <mj-column width="33%">
+        <mj-image src="Assets/Images/logoVk.png" alt="logo" width="150px" padding="10px 0"></mj-image>
+      </mj-column>
+      <mj-column width="66%">
+        <mj-text align="left" color="#ffffff" font-size="20px" font-family="Lato, Helvetica, Arial, sans-serif" padding="18px 0px">Kevin Bernard | Portfolio</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="20px 0">
+      <mj-column>
+        <mj-text align="center" color="#EC652D" font-size="20px" font-family="Lato, Helvetica, Arial, sans-serif" vertical-align="top" padding="0px 25px"><strong>Nom :</strong> <br />
+          <p style="font-size: 15px;color:#000000;">Le nom de l'expéditeur</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" color="#EC652D" font-size="20px" font-family="Lato, Helvetica, Arial, sans-serif" vertical-align="top" padding="0px 25px"><strong>De :</strong> <br />
+          <p style="font-size: 15px;color:#000000;">L'email de l'expéditeur</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" color="#EC652D" font-size="20px" font-family="Lato, Helvetica, Arial, sans-serif" vertical-align="top" padding="0px 25px"><strong>Sujet :</strong> <br />
+          <p style="font-size: 15px;color:#000000;">Le sujet de l'email, qui peut être long</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-top="20px">
+      <mj-column width="100%">
+        <mj-text align="center" color="#000000" font-size="18px" font-family="Lato, Helvetica, Arial, sans-serif" padding="0px 30px 30px 30px">Nulla vel mattis eros. Praesent gravida augue accumsan odio congue, non placerat mauris lacinia. Nam lobortis ex in condimentum aliquet. Cras ut lacus volutpat, pellentesque mauris in, maximus orci. Quisque eu massa ullamcorper, tempus neque nec,
+          feugiat mauris. Quisque sagittis mollis risus, faucibus placerat augue lobortis at. Etiam convallis in nibh vel efficitur. Phasellus maximus sollicitudin fermentum. Integer nec purus ex. Quisque sed augue libero. Mauris quis neque vehicula,
+          dictum leo at, tincidunt urna. Aliquam eu nunc iaculis, aliquam nulla quis, luctus felis. Etiam non sagittis justo, a mattis augue. Nulla facilisi. Vivamus maximus nisl arcu, ut rhoncus lorem lacinia in.</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
