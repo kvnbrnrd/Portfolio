@@ -252,7 +252,7 @@ img {
 		position: relative;
 		max-width: 100%;
 		min-height: 100vh;
-		background-image: url('../Images/key.png');
+		background-image: url('../Images/key2.png');
 	}
 
 	h1
@@ -261,14 +261,21 @@ img {
 		font-family: 'orkney', 'Times New Roman', Times, serif;
 		color: #ececec;
 		padding-top: 20rem;
-		padding-bottom: 10rem;
+		padding-bottom: 13rem;
 	}
 
 	.pres
 	{
-		font-size: 3rem;
+		font-size: 4rem;
 		font-family: 'karla', 'Times New Roman', Times, serif;
-		padding-bottom: 10rem;
+		padding-bottom: 3rem;
+		color: #ececec;
+	}
+
+	.loc
+	{
+		font-size: 4rem;
+		font-family: 'karla', 'Times New Roman', Times, serif;
 		color: #ececec;
 	}
 
@@ -597,19 +604,32 @@ img {
 	  }
 
 /* ******************************* Fin Animations scroll ******************************************** */
+	.home
+	{
+		background-image: url('../Images/keymobile.jpg');
+	}
+
 
 	h1
 	{
-		font-size: 8rem;
+		font-size: 7.5rem;
 		font-family: 'orkney', 'Times New Roman', Times, serif;
+		margin-bottom: 7rem;
 	}
 
 	.pres
 	{
-		font-size: 2.5rem;
+		font-size: 3.3rem;
 		font-family: 'karla', 'Times New Roman', Times, serif;
-		padding-bottom: 5rem;
+		padding-bottom: 3rem;
 	}
+
+	.loc
+	{
+		font-size: 3.3rem;
+		font-family: 'karla', 'Times New Roman', Times, serif;
+	}
+
 
 	.TxtProjet
 	{
@@ -819,7 +839,7 @@ img {
 		color: #ececec;
 	}
 
-	/* ******************************* Fin Home ******************************************** */
+		/* ******************************* Fin Home ******************************************** */
 
 	#titre
 	{

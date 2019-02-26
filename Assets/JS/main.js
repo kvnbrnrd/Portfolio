@@ -48,6 +48,12 @@ function animationHome() {
         ease: Expo.easeInOut
     })
 
+    TweenMax.to(".loc", 2, {
+      opacity : 0,
+      y: -60,
+      ease: Expo.easeInOut
+  })
+
     TweenMax.to("#home", 2, {
         delay: 0.3,
         top : "-100%",

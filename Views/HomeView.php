@@ -13,8 +13,9 @@
 <!-- ------------------------------- Début Page Home -------------------------------- -->
 
     <section class="container-fluid text-center home" id="home">
-        <h1 class="kev">KEVARD BERNIN</h1>
-        <p class="pres">Donec condimentum massa eget eros scelerisque,<br> non sollicitudin lectus malesuada.<br> Duis consequat tortor in luctus scelerisque.<br> Nam sit amet tincidunt mauris.<br> Maecenas vehicula volutpat turpis sed dapibus.</p>
+        <h1 class="kev">KEVIN BERNARD</h1>
+        <p class="pres">Web Designer</p>
+        <p class="loc">Belfort, France</p>
         
 
         <div id="mouse" class="call animated pulse">
@@ -73,7 +74,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6 corps">
                         <h2 id="titre">R&M TRANSFER</h2>
-                        <p class="fr" id="desc">Reproduction d'un service similaire à WeTransfer avec pour objectifs d'insister sur une UX simple et intuitive, tout en créant une identité visuelle propre au service. Mise en place de l'upload multiple de fichier, de l'envoi d'un lien de téléchargement sécurisé dans un email responsive fidèle à l'identité du site. Un script PHP permet de vider périodiquement le dossier dans lequel sont stockés les fichiers uploadés.</p>
+                        <p class="fr" id="desc">Reproduction d'un service similaire à WeTransfer avec pour objectifs d'insister sur une UX simple et intuitive, tout en créant une identité visuelle propre au service. Mise en place de l'upload multiple de fichiers, de l'envoi d'un lien de téléchargement sécurisé dans un email responsive fidèle à l'identité du site. Un script PHP permet de vider périodiquement le dossier dans lequel sont stockés les fichiers uploadés.</p>
                         <p class="en" id="desc">This project aimed to reproduce a website similar to WeTransfer in terms of functionality, with intuitive UX and defined visual identity being the main focus. The technical challenges consisted in setting up multiple file upload and sending a secure download link through a responsive email, further conveying the identity of the service. A PHP script is used to periodically delete the files stored in the uploads directory.</p>
                     <div id="modal" class="row justify-content-between">
                         <a class="col align-self-end animated pulse-slow fr" href ="https://kevinb269.promo-24.codeur.online/mesprojets/WeTransfer/index.php" id="voir">VOIR LE SITE</a>
@@ -100,7 +101,7 @@
                 <div class="col-md-6 corps">
                         <h2 id="titre">CANCOILLOTTE GAUMONT</h2>
                         <p class="fr" id="desc">Réalisation d'un annuaire de films permettant de consulter la fiche d'un film par le biais d'une recherche par critères multiples. Les informations relatives au film sont affichées dynamiquement grâce aux requêtes vers la base de données relationnelle. L'utilisation de Material Design assure un site entièrement responsive et une UI conforme aux standards en application en matière de web design.</p>
-                        <p class="en" id="desc">Creation of an online movie database where the user can search for a specific movie using several search forms and criteria. Full information about the movie is displayed dynamically in a page through queries to the relational database. The use of Material Design, ensures a fully responsive website and a UI up to date with established web design standards.</p>
+                        <p class="en" id="desc">Creation of an online movie database where the user can search for a specific movie using several search forms and criteria. Full information about the movie is displayed dynamically in a page through queries to the relational database. The use of Material Design ensures a fully responsive website and a UI up to date with established web design standards.</p>
                     <div class="row justify-content-between modal2">
                         <a class="col align-self-end animated pulse-slow fr" href ="https://kevinb269.promo-24.codeur.online/mesprojets/Projet_Merise/index.php" id="voir">VOIR LE SITE</a>
                         <a class="col align-self-end animated pulse-slow en" href ="https://kevinb269.promo-24.codeur.online/mesprojets/Projet_Merise/index.php" id="voir">SEE THE WEBSITE</a>
