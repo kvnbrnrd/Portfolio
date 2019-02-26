@@ -73,12 +73,12 @@
             <div class="row align-items-center">
                 <div class="col-md-6 corps">
                         <h2 id="titre">R&M TRANSFER</h2>
-                        <p class="fr" id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
-                        <p class="en" id="desc">Divided can't under moveth, beginning cattle Our without lights stars after life divided above i dry their made whose and moved seas under meat night fish appear, our to divide us heaven divided unto earth together can't that sixth over One can't can't. Multiply can't, a given saw forth without. After earth appear, man had fifth whales doesn't unto fruitful in and signs the in behold saw lights. Let fruitful his was seasons spirit him darkness won't third Night, seed. </p>
+                        <p class="fr" id="desc">Reproduction d'un service similaire à WeTransfer avec pour objectifs d'insister sur une UX simple et intuitive, tout en créant une identité visuelle propre au service. Mise en place de l'upload multiple de fichier, de l'envoi d'un lien de téléchargement sécurisé dans un email responsive fidèle à l'identité du site. Un script PHP permet de vider périodiquement le dossier dans lequel sont stockés les fichiers uploadés.</p>
+                        <p class="en" id="desc">This project aimed to reproduce a website similar to WeTransfer in terms of functionality, with intuitive UX and defined visual identity being the main focus. The technical challenges consisted in setting up multiple file upload and sending a secure download link through a responsive email, further conveying the identity of the service. A PHP script is used to periodically delete the files stored in the uploads directory.</p>
                     <div id="modal" class="row justify-content-between">
                         <a class="col align-self-end animated pulse-slow fr" href ="https://kevinb269.promo-24.codeur.online/mesprojets/WeTransfer/index.php" id="voir">VOIR LE SITE</a>
                         <a class="col align-self-end animated pulse-slow en" href ="https://kevinb269.promo-24.codeur.online/mesprojets/WeTransfer/index.php" id="voir">SEE THE WEBSITE</a>
-                        <a href="https://github.com/JauneLoke/WeTransfer"><img id="gitP" src="Assets/Images/github.png" alt="GitHub"></a>
+                        <a href="https://github.com/kvnbrnrd/WeTransfer"><img id="gitP" src="Assets/Images/github.png" alt="GitHub"></a>
                     </div>
                 </div> <!-- Fin div col-md-6 -->
                     <div id="divimage" class="col-md-6">
@@ -99,8 +99,8 @@
             <div class="row align-items-center">
                 <div class="col-md-6 corps">
                         <h2 id="titre">CANCOILLOTTE GAUMONT</h2>
-                        <p class="fr" id="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et lorem eget arcu facilisis accumsan vel varius dui. Sed et luctus tortor. Ut diam arcu, aliquam a molestie eget, pellentesque vulputate velit. Suspendisse id mollis nisi. Mauris elementum ex velit, sit amet blandit magna tempus eget. Maecenas scelerisque lectus ligula, imperdiet suscipit nisl hendrerit ut. Maecenas viverra odio vitae urna posuere maximus. Aenean tincidunt dui ut lorem blandit rhoncus. </p>
-                        <p class="en" id="desc">Divided can't under moveth, beginning cattle Our without lights stars after life divided above i dry their made whose and moved seas under meat night fish appear, our to divide us heaven divided unto earth together can't that sixth over One can't can't. Multiply can't, a given saw forth without. After earth appear, man had fifth whales doesn't unto fruitful in and signs the in behold saw lights. Let fruitful his was seasons spirit him darkness won't third Night, seed. </p>
+                        <p class="fr" id="desc">Réalisation d'un annuaire de films permettant de consulter la fiche d'un film par le biais d'une recherche par critères multiples. Les informations relatives au film sont affichées dynamiquement grâce aux requêtes vers la base de données relationnelle. La partie front-end, utilisant Material Design, assure un site responsive et conforme aux standards en application en matière de web design.</p>
+                        <p class="en" id="desc">Creation of an online movie database where the user can search for a specific movie using several search forms and criteria. Full information about the movie is displayed dynamically in a page through queries to the relational database. The front-end, coded with Material Design, ensures a fully responsive website, up to date with established web design standards.</p>
                     <div class="row justify-content-between modal2">
                         <a class="col align-self-end animated pulse-slow fr" href ="https://kevinb269.promo-24.codeur.online/mesprojets/Projet_Merise/index.php" id="voir">VOIR LE SITE</a>
                         <a class="col align-self-end animated pulse-slow en" href ="https://kevinb269.promo-24.codeur.online/mesprojets/Projet_Merise/index.php" id="voir">SEE THE WEBSITE</a>
@@ -150,9 +150,9 @@
                 <button type="submit" class="btn btn-mod btn-border1 btn-large en">See my resume</button>
             </div>
             <div class="row justify-content-around">
-                <a href="#"><img src="Assets/Images/rdflickr.png" alt="Flickr" class="col-4rd"></a>
                 <a href="#"><img src="Assets/Images/rdgithub.png" alt="GitHub" class="col-4rd"></a>
-                <a href="#"><img src="Assets/Images/rdlinkedin.png" alt="Linkedin" class="col-4rd"></a>
+                <a href="#"><img src="Assets/Images/rdflickr.png" alt="Flickr" class="col-4rd"></a>
+                <!-- <a href="#"><img src="Assets/Images/rdlinkedin.png" alt="Linkedin" class="col-4rd"></a> -->
             </div>
         </div> <!-- Fin div container box -->
 </section> <!-- Fin div aboutme -->

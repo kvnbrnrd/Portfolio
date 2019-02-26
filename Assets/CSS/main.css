@@ -82,7 +82,8 @@ img {
 	#pageP2
 	{
 		min-height: 100vh;
-		background-color: rgb(233, 233, 233);
+		background-color: #858585;
+		color: black;
 	}
 
 	#aboutme
@@ -347,7 +348,7 @@ img {
  {
 	font-size: 2rem;
 	font-family: 'karla', 'Times New Roman', Times, serif;
-	color: #212529;
+	color: #1c1c1d;
  }
 
  .call1
@@ -741,7 +742,6 @@ img {
 
 .justify-content-around
 {
-	height: 100vh;
 	padding-top: 3rem;
 }
 
