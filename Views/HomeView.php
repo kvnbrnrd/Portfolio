@@ -84,7 +84,7 @@
                     <div id="divimage" class="col-md-6">
                         <img id="imgprojet" src="Assets/Images/rickmail.png" alt="image Rick & Morty">
                     </div>
-            </div> <!-- Fin  div row align-items-center -->
+            </div> <!-- Fin div row align-items-center -->
         </div> <!-- Fin div projet -->
 </section> <!-- Fin div PageP -->
 
@@ -99,8 +99,8 @@
             <div class="row align-items-center">
                 <div class="col-md-6 corps">
                         <h2 id="titre">CANCOILLOTTE GAUMONT</h2>
-                        <p class="fr" id="desc">Réalisation d'un annuaire de films permettant de consulter la fiche d'un film par le biais d'une recherche par critères multiples. Les informations relatives au film sont affichées dynamiquement grâce aux requêtes vers la base de données relationnelle. La partie front-end, utilisant Material Design, assure un site responsive et conforme aux standards en application en matière de web design.</p>
-                        <p class="en" id="desc">Creation of an online movie database where the user can search for a specific movie using several search forms and criteria. Full information about the movie is displayed dynamically in a page through queries to the relational database. The front-end, coded with Material Design, ensures a fully responsive website, up to date with established web design standards.</p>
+                        <p class="fr" id="desc">Réalisation d'un annuaire de films permettant de consulter la fiche d'un film par le biais d'une recherche par critères multiples. Les informations relatives au film sont affichées dynamiquement grâce aux requêtes vers la base de données relationnelle. L'utilisation de Material Design assure un site entièrement responsive et une UI conforme aux standards en application en matière de web design.</p>
+                        <p class="en" id="desc">Creation of an online movie database where the user can search for a specific movie using several search forms and criteria. Full information about the movie is displayed dynamically in a page through queries to the relational database. The use of Material Design, ensures a fully responsive website and a UI up to date with established web design standards.</p>
                     <div class="row justify-content-between modal2">
                         <a class="col align-self-end animated pulse-slow fr" href ="https://kevinb269.promo-24.codeur.online/mesprojets/Projet_Merise/index.php" id="voir">VOIR LE SITE</a>
                         <a class="col align-self-end animated pulse-slow en" href ="https://kevinb269.promo-24.codeur.online/mesprojets/Projet_Merise/index.php" id="voir">SEE THE WEBSITE</a>
