@@ -83,7 +83,7 @@
                     </div>
                 </div> <!-- Fin div col-md-6 -->
                     <div id="divimage" class="col-md-6">
-                        <img id="imgprojet" src="Assets/Images/rickmail.png" alt="image Rick & Morty">
+                        <img id="imgprojet" src="Assets/Images/rickmail.jpg" alt="image Rick & Morty">
                     </div>
             </div> <!-- Fin div row align-items-center -->
         </div> <!-- Fin div projet -->
@@ -109,7 +109,7 @@
                     </div>
                 </div> <!-- Fin div col-md-6 -->
                     <div id="divimage" class="col-md-6">
-                        <img id="imgprojet" src="Assets/Images/gaumont.png" alt="fiche film">
+                        <img id="imgprojet" src="Assets/Images/gaumont.jpg" alt="fiche film">
                     </div>
             </div> <!-- Fin  div row align-items-center -->
         </div> <!-- Fin div projet -->
