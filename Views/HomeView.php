@@ -41,7 +41,7 @@
                 <div class="collapse navbar-collapse" id="navbarsExample02">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#home"><img id="KB" src="Assets/Images/logoVk.png" alt="logo"></a>
+                            <a class="nav-link" href="#home"><img id="KB" src="Assets/Images/k2.png" alt="logo"></a>
                         </li>
                     </ul>
                     <ul class="navbar-nav my-2 my-md-0">
