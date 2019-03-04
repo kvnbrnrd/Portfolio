@@ -13,6 +13,7 @@
 <!-- ------------------------------- Début Page Home -------------------------------- -->
 
     <section class="container-fluid text-center home" id="home">
+        <img id="homelogo" src="Assets/Images/k.png" alt="">
         <h1 class="kev">KEVIN BERNARD</h1>
         <p class="pres">Web Designer</p>
         <p class="loc">Belfort, France</p>
