@@ -308,6 +308,13 @@ img {
 	display: none;
 }
 
+#KB
+{
+	height: 90px;
+	width: 80px;
+}
+
+
  .my-2
  {
 	font-size: 2rem;
@@ -667,6 +674,7 @@ img {
 
 	#KB
 	{
+		width: 46px;
 		height: 52px;
 	}
 
