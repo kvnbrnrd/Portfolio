@@ -89,6 +89,19 @@ function animationHome() {
     }
   });
 
+  // window.addEventListener('touchmove', function(e) {
+  //   if (e.deltaY > 0 && window.scrollY <= 0 ) {
+  //       animationHome();
+  //   }
+
+  //   else if (e.deltaY > 0 || e.deltaY < 0 )
+  //   {
+  //       OverflowHeader();
+  //       animationHomeInstant();
+  //   }
+  // });
+
+
 // Bug à résoudre : si l'utilisateur continue de scroller, l'animation reprend au début/freeze
  
     

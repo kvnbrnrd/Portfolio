@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Kevin Bernard | Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"> 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
         <link rel="stylesheet" type="text/css" media="screen" href="Assets/CSS/main.css" />
     </head>
 <body>
@@ -26,6 +26,7 @@
                 </div>
             </div>
         </div> 
+        <div class="scrollme call-arrow"></div>
 </section> 
 
 <!-- ------------------------------- Fin Page Home -------------------------------- -->
@@ -42,7 +43,7 @@
                 <div class="collapse navbar-collapse" id="navbarsExample02">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#home"><img id="KB" src="Assets/Images/k.png" alt="logo"></a>
+                            <a class="nav-link" href="https://kevinb269.promo-24.codeur.online/mesprojets/Portfolio/index.php"><img id="KB" src="Assets/Images/k.png" alt="logo"></a>
                         </li>
                     </ul>
                     <ul class="navbar-nav my-2 my-md-0">
