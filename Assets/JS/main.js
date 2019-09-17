@@ -89,6 +89,12 @@ function animationHome() {
     }
   });
 
+  // if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+  // $('#home').hammer().on('swipe', function() {
+  //   animationHome();
+  // })
+  // }
+
   // window.addEventListener('touchmove', function(e) {
   //   if (e.deltaY > 0 && window.scrollY <= 0 ) {
   //       animationHome();
@@ -100,6 +106,16 @@ function animationHome() {
   //       animationHomeInstant();
   //   }
   // });
+
+
+    if(window.innerWidth <= 800 && window.innerHeight <= 600) {
+      $('#home').hammer().on('swipe', function() {
+        animationHome();
+      })
+    }
+    
+
+
 
 
 // Bug à résoudre : si l'utilisateur continue de scroller, l'animation reprend au début/freeze
@@ -155,20 +171,20 @@ $(document).ready(function() {
     });
     
     // Active link switching
-    $(window).scroll(function() {
-      var scrollbarLocation = $(this).scrollTop();
+    // $(window).scroll(function() {
+    //   var scrollbarLocation = $(this).scrollTop();
       
-      scrollLink.each(function() {
+    //   scrollLink.each(function() {
         
-        var sectionOffset = $(this.hash).offset().top - 20;
+    //     var sectionOffset = $(this.hash).offset().top - 20;
         
-        if ( sectionOffset <= scrollbarLocation ) {
-          $(this).parent('').addClass('active');
-          $(this).parent('').siblings('').removeClass('active');
-        }
-      })
+    //     if ( sectionOffset <= scrollbarLocation ) {
+    //       $(this).parent('').addClass('active');
+    //       $(this).parent('').siblings('').removeClass('active');
+    //     }
+    //   })
       
-    })
+    // })
     
   })
 

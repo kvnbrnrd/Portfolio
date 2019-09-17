@@ -47,7 +47,7 @@
                         </li>
                     </ul>
                     <ul class="navbar-nav my-2 my-md-0">
-                        <li class="nav-item dropdown active">
+                        <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle fr" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projets</a>
                             <a class="nav-link dropdown-toggle en" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
                             <div class="dropdown-menu" aria-labelledby="dropdown01">
@@ -149,8 +149,8 @@
                 </p>
             </div>
             <div class="text-center margin-top-25 CV">
-                <button type="submit" class="btn btn-mod btn-border1 btn-large fr">Voir mon CV</button>
-                <button type="submit" class="btn btn-mod btn-border1 btn-large en">See my resume</button>
+                <button type="submit" class="btn btn-mod btn-border1 btn-large fr"><a class="lien-cv fr" href="https://kevinb269.promo-24.codeur.online/mesprojets/cv/" target="_blank" rel="noopener noreferrer">Voir mon CV</a></button> 
+                <button type="submit" class="btn btn-mod btn-border1 btn-large en"><a class="lien-cv en" href="https://kevinb269.promo-24.codeur.online/mesprojets/cv/" target="_blank" rel="noopener noreferrer">See my resume</a></button>
             </div>
             <div class="row justify-content-around">
                 <a href="#"><img src="Assets/Images/rdgithub.png" alt="GitHub" class="col-4rd"></a>
@@ -230,6 +230,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<script src="Assets/JS/hammer.js"></script>
 <script src="Assets/JS/main.js"></script>
 
 </body>
